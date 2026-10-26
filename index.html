@@ -1,1 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Cámara Anecoica – Arlyn Ligeia</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700&family=Rajdhani:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script type="importmap">
+    { "imports": { "three": "https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.module.js" } }
+  </script>
+</head>
+<body>
+  <main class="app">
+    <section class="stage">
+      <header class="hud">
+        <div>
+          <h1>ARLYN LIGEIA</h1>
+          <p>CÁMARA ANECOICA</p>
+        </div>
+        <div class="info">
+          <span id="coord">COORD: X: 0.00 Y: 1.70 Z: 10.00</span>
+          <span id="tiempo">TIEMPO: 00:00:00</span>
+        </div>
+      </header>
 
+      <div id="scene" aria-label="Escena 3D de una cámara anecoica"></div>
+
+      <footer class="keys">
+        <div class="group">
+          <span>MOVER</span>
+          <div class="pad">
+            <button data-key="KeyW" aria-label="Adelante">W</button>
+            <button data-key="KeyA" aria-label="Izquierda">A</button>
+            <button data-key="KeyS" aria-label="Atrás">S</button>
+            <button data-key="KeyD" aria-label="Derecha">D</button>
+          </div>
+        </div>
+        <div class="group"><span>VISTA</span><div class="hint">Arrastra con el ratón o el dedo</div></div>
+        <div class="group"><span>SALIR</span><button id="esc">ESC</button></div>
+      </footer>
+    </section>
+
+    <aside class="side">
+      <section class="card">
+        <h2>VISTA SUPERIOR (ESQUEMA)</h2>
+        <div class="map">
+          <canvas id="mapa" width="200" height="200"></canvas>
+          <ul id="capas">
+            <li><button data-layer="panels" class="on" style="--c:#8a4dff">Paneles acústicos</button></li>
+            <li><button data-layer="door" class="on" style="--c:#ff2bd6">Puerta</button></li>
+            <li><button data-layer="floor" class="on" style="--c:#6a5cff">Suelo</button></li>
+            <li><button data-layer="led" class="on" style="--c:#19d9ff">Luz LED</button></li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="card">
+        <h2>TECNOLOGÍAS UTILIZADAS</h2>
+        <ul class="tech">
+          <li><b style="background:#e44d26">5</b><div><strong>HTML5</strong><small>Estructura de la página</small></div></li>
+          <li><b style="background:#1572b6">3</b><div><strong>CSS3</strong><small>Estilos y diseño visual</small></div></li>
+          <li><b style="background:#f7df1e;color:#111">JS</b><div><strong>JavaScript</strong><small>Interactividad y controles</small></div></li>
+          <li><b style="background:#0b0b2a;border:1px solid #19d9ff">3D</b><div><strong>Three.js</strong><small>Renderizado 3D</small></div></li>
+          <li><b style="background:#161236;border:1px solid #8a4dff">GH</b><div><strong>GitHub Pages</strong><small>Publicación del proyecto</small></div></li>
+        </ul>
+      </section>
+
+      <section class="card">
+        <h2>TIEMPO ESTIMADO DE DESARROLLO</h2>
+        <p class="big">3 a 7 días <small>(aprox. 20 a 40 horas)</small></p>
+        <h3>DESGLOSE:</h3>
+        <ul class="plain">
+          <li>Diseño y estructura (HTML + CSS): 6–10 h</li>
+          <li>Modelo 3D y texturas (Three.js): 10–18 h</li>
+          <li>Interactividad y controles: 4–8 h</li>
+          <li>Ajustes, pruebas y publicación: 2–4 h</li>
+        </ul>
+      </section>
+    </aside>
+  </main>
+  <script type="module" src="script.js"></script>
+</body>
+</html>
