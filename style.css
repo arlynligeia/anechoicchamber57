@@ -281,7 +281,7 @@ body {
     background: transparent !important;
     border: transparent !important;
     border-radius: 0px;
-    margin: 300px auto 50px auto;
+    margin: 250px auto 50px auto;
     padding: 30px;
 }
 /* INFORMACIÓN */
@@ -326,7 +326,7 @@ body {
 .home-title {
     display: block;
     font-family: 'Orbitron', sans-serif;
-    font-size: 3.5rem;
+    font-size: 4rem;
     color: white !important;
     text-decoration: none;
     text-transform: uppercase;
