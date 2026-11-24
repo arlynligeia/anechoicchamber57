@@ -281,7 +281,7 @@ body {
     background: transparent !important;
     border: transparent !important;
     border-radius: 0px;
-    margin: 50px auto 50px auto;
+    margin: 200px auto 50px auto;
     padding: 30px;
 }
 /* INFORMACIÓN */
@@ -301,7 +301,7 @@ body {
     text-transform: uppercase;
     text-align: left;
     line-height: 1.5;
-    margin: 0 0 10px 0;
+    margin: 0px;
     padding: 0px;
 }
 .home-subtitle-2 {
@@ -313,7 +313,7 @@ body {
     text-transform: uppercase;
     text-align: left;
     line-height: 1.5;
-    margin: 0 0 10px 0;
+    margin: 0px;
     padding: 0px;
 }
 .home-word-1-mobile {
@@ -326,17 +326,17 @@ body {
 .home-title {
     display: block;
     font-family: 'Orbitron', sans-serif;
-    font-size: 3rem;
+    font-size: 3.5rem;
     color: white !important;
     text-decoration: none;
     text-transform: uppercase;
     text-align: left;
-    line-height: 1.6;
+    line-height: 1;
     margin: 0px;
     padding: 0px;
 }
 .home-title a {
-    color: #ff00a9 !important;
+    color: whitw !important;
     text-decoration: none;
 }
 /* BOTÓN */
