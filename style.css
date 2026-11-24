@@ -17,6 +17,8 @@ body {
 }
 
 
+
+
 /* ======================================
    MENÚ PC
 ====================================== */
@@ -67,7 +69,7 @@ body {
 .menu-nav a {
     position: relative;
     display: block;
-    border-radius: 8px;
+    border-radius: 0;
     font-family: 'Orbitron', sans-serif;
     font-size: 1rem;
     text-decoration: none;
@@ -83,22 +85,22 @@ body {
             rgba(255, 255, 255, 0.05) 2px,
             rgba(255, 255, 255, 0.05) 4px
         );
-    border: 2px solid #00FFFF;
-    color: #00FFFF;
+    border: 2px solid #FFFFFF;
+    color: #FFFFFF;
     box-shadow:
-        0 0 5px #00FFFF,
-        inset 0 0 5px rgba(0, 255, 255, 0.3);
+        0 0 5px #FFFFFF,
+        inset 0 0 5px rgba(255, 255, 255, 0.3);
 }
 
 .menu-nav a:hover {
-    background: rgba(0, 255, 255, 0.1);
-    color: #00FFFF;
+    background: rgba(255, 255, 255, 0.1);
+    color: #FFFFFF;
     transform: translateY(-2px);
     box-shadow:
-        0 0 15px #00FFFF,
-        0 0 25px #00FFFF,
-        inset 0 0 10px rgba(0, 255, 255, 0.5);
-    text-shadow: 0 0 10px #00FFFF;
+        0 0 15px #FFFFFF,
+        0 0 25px #FFFFFF,
+        inset 0 0 10px rgba(255, 255, 255, 0.5);
+    text-shadow: 0 0 10px #FFFFFF;
 }
 
 .menu-nav a::after {
@@ -108,16 +110,16 @@ body {
     right: 5px;
     width: 6px;
     height: 6px;
-    border-radius: 50%;
-    background: #00FFFF;
-    box-shadow: 0 0 5px #00FFFF;
+    border-radius: 0;
+    background: #FFFFFF;
+    box-shadow: 0 0 5px #FFFFFF;
     transition: all 0.3s ease;
 }
 
 .menu-nav a:hover::after {
     box-shadow:
-        0 0 10px #00FFFF,
-        0 0 20px #00FFFF;
+        0 0 10px #FFFFFF,
+        0 0 20px #FFFFFF;
 }
 
 /* ======================================
@@ -128,7 +130,6 @@ body {
         display: none;
     }
 }
-
 
 
 
