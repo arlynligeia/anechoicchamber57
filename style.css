@@ -608,9 +608,7 @@ body {
     align-items: center;
     margin: 0 0 10px 0;
 }
-.footer-link-termsandconditions a,
-.footer-link-privacypolicy a,
-.footer-link-cookiepolicy a {
+.footer-link-copyright a {
     position: relative;
     z-index: 1;
     font-family: 'Share Tech Mono', monospace;
@@ -621,9 +619,7 @@ body {
     margin: 0 0 10px 0;
     transition: all 0.3s ease;
 }
-.footer-link-termsandconditions a:hover::after,
-.footer-link-privacypolicy a:hover::after,
-.footer-link-cookiepolicy a:hover::after {
+.footer-link-copyright a:hover::after {
     content: "";
     position: absolute;
     left: 0;
