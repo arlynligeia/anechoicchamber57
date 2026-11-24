@@ -29,28 +29,26 @@ body {
     gap: 20px;
     padding: 30px 40px 0px 40px;
 }
+
 /* LOGO */
 .menu-logo {
     display: flex;
     align-items: center;
     flex-shrink: 0;
 }
+
 .menu-logo img {
     width: 200px;
     height: auto;
     display: block;
 }
-body.home .menu-logo {
-    display: none;
-}
-body.is-section .menu-logo {
-    display: flex;
-}
+
 /* BOTONES */
 .menu-nav {
     display: inline-block;
     text-align: center;
 }
+
 .menu-nav ul {
     list-style: none;
     display: flex;
@@ -61,9 +59,11 @@ body.is-section .menu-logo {
     margin: 0;
     padding: 0;
 }
+
 .menu-nav li {
     position: relative;
 }
+
 .menu-nav a {
     position: relative;
     display: block;
@@ -89,6 +89,7 @@ body.is-section .menu-logo {
         0 0 5px #00FFFF,
         inset 0 0 5px rgba(0, 255, 255, 0.3);
 }
+
 .menu-nav a:hover {
     background: rgba(0, 255, 255, 0.1);
     color: #00FFFF;
@@ -99,6 +100,7 @@ body.is-section .menu-logo {
         inset 0 0 10px rgba(0, 255, 255, 0.5);
     text-shadow: 0 0 10px #00FFFF;
 }
+
 .menu-nav a::after {
     content: '';
     position: absolute;
@@ -111,11 +113,13 @@ body.is-section .menu-logo {
     box-shadow: 0 0 5px #00FFFF;
     transition: all 0.3s ease;
 }
+
 .menu-nav a:hover::after {
     box-shadow:
         0 0 10px #00FFFF,
         0 0 20px #00FFFF;
 }
+
 /* ======================================
    RESPONSIVE — OCULTAR EN MOBILE
 ====================================== */
@@ -124,6 +128,13 @@ body.is-section .menu-logo {
         display: none;
     }
 }
+
+
+
+
+
+
+
 /* ======================================
    MENÚ MOBILE
 ====================================== */
