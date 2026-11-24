@@ -281,7 +281,7 @@ body {
     background: transparent !important;
     border: transparent !important;
     border-radius: 0px;
-    margin: 200px auto 50px auto;
+    margin: 300px auto 50px auto;
     padding: 30px;
 }
 /* INFORMACIÓN */
@@ -301,7 +301,7 @@ body {
     text-transform: uppercase;
     text-align: left;
     line-height: 1.5;
-    margin: 0px;
+    margin: 0px 0px 5px 0px;
     padding: 0px;
 }
 .home-subtitle-2 {
@@ -313,7 +313,7 @@ body {
     text-transform: uppercase;
     text-align: left;
     line-height: 1.5;
-    margin: 0px;
+    margin: 5px 0px 0px 0px;
     padding: 0px;
 }
 .home-word-1-mobile {
@@ -336,7 +336,7 @@ body {
     padding: 0px;
 }
 .home-title a {
-    color: whitw !important;
+    color: white !important;
     text-decoration: none;
 }
 /* BOTÓN */
