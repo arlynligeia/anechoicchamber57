@@ -420,7 +420,7 @@ body {
         background: transparent !important;
         border: transparent !important;
         border-radius: 0px;
-        margin: 250px auto 50px auto;
+        margin: 350px auto 50px auto;
         padding: 30px;
     }
     /* INFORMACIÓN */
@@ -550,6 +550,512 @@ body {
 }
 
 
+
+
+
+
+
+/* ======================================
+   FOOTER PC
+====================================== */
+.footer {
+    position: relative;
+    width: 100%;
+    box-sizing: border-box;
+    background: #2a0070 !important;
+    margin-top: auto;
+    padding: 30px;
+}
+/* LOGO Y COPYRIGHT */
+.footer-brand {
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footer-brand-logo {
+    display: block;
+    text-align: center;
+    background: transparent !important;
+    -webkit-background-clip: unset;
+    background-clip: unset;
+    -webkit-text-fill-color: unset;
+    margin: 20px;
+    padding: 0;
+}
+.footer-brand-logo img {
+    max-width: 100%;
+    box-sizing: border-box;
+    width: auto;
+    height: 100px;
+    display: inline-block;
+}
+.footer-brand-allrightreserved {
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 1rem;
+    color: #00FFFF !important;
+    text-decoration: none;
+    line-height: 1.5;
+    margin: 20px 0 10px 0;
+}
+/* LINKS */
+.footer-link {
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 0 10px 0;
+}
+.footer-link-termsandconditions a,
+.footer-link-privacypolicy a,
+.footer-link-cookiepolicy a {
+    position: relative;
+    z-index: 1;
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 1rem;
+    color: #00FFFF !important;
+    text-decoration: none;
+    line-height: 1.5;
+    margin: 0 0 10px 0;
+    transition: all 0.3s ease;
+}
+.footer-link-termsandconditions a:hover::after,
+.footer-link-privacypolicy a:hover::after,
+.footer-link-cookiepolicy a:hover::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    height: 2px;
+    background: #00FFFF !important;
+    transform: translateY(-50%);
+    animation: strike 0.3s ease forwards;
+}
+@keyframes strike {
+    from { width: 0%; }
+    to { width: 100%; }
+}
+/* REDES SOCIALES */
+.footer-socialmedia {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 6px;
+    margin: 0 0 10px 0;
+}
+.footer-socialmedia-icon {
+    position: relative;
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    width: 60px;
+    height: 60px;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+    background: transparent;
+    border: 1px dotted transparent;
+    margin: 0px;
+    padding: 0px;
+    transition: background 0.15s ease, border-color 0.15s ease;
+}
+.footer-socialmedia-icon:hover {
+    background: rgba(255, 0, 169, 0.15);
+    border-color: #ff00a9;
+}
+.footer-socialmedia-link {
+    display: block;
+    background: transparent !important;
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+.footer-socialmedia-link::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    cursor: pointer;
+}
+/* DIBUJO DE CARPETA */
+.footer-socialmedia-folder {
+    display: block;
+    position: relative;
+    width: 36px;
+    height: 27px;
+    background: #cc0087;
+    clip-path: polygon(0 4px, 4px 0, 24px 0, 28px 4px, 60px 4px, 64px 8px, 64px 48px, 0 48px);
+    transition: filter 0.15s ease;
+}
+.footer-socialmedia-folder::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: #ff00a9;
+    clip-path: polygon(2px 5px, 4px 2px, 23px 2px, 27px 6px, 59px 6px, 62px 9px, 62px 46px, 2px 46px);
+}
+.footer-socialmedia-folder::after {
+    content: "";
+    position: absolute;
+    top: 8px;
+    left: 1px;
+    width: 34px;
+    height: 18px;
+    box-sizing: border-box;
+    background: #ffb3e6;
+    border-top: 2px solid #cc0087;
+    box-shadow: inset 1px 1px 0 #ffffff, inset -1px -1px 0 #ff80cc;
+}
+.footer-socialmedia-link:hover .footer-socialmedia-folder {
+    filter: brightness(1.2);
+}
+/* TEXTO */
+.footer-socialmedia-text {
+    display: block;
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 0.6rem;
+    color: #ff00a9 !important;
+    text-decoration: none;
+    text-transform: none;
+    text-align: center;
+    line-height: 1.5;
+    white-space: nowrap;
+    margin: 4px 0px 0px 0px;
+    padding: 0px;
+}
+/* BOTÓN SCROLL TOP */
+.footer-button {
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 0px;
+}
+.footer-button-scrolltop {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    background: transparent !important;
+    border-radius: 8px;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 1rem;
+    color: #ff00a9 !important;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0px;
+    padding: 10px 20px;
+    border: 2px solid #ff00a9 !important;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    background:
+        repeating-linear-gradient(
+            45deg,
+            transparent,
+            transparent 2px,
+            rgba(255, 0, 169, 0.05) 2px,
+            rgba(255, 0, 169, 0.05) 4px
+        ) !important;
+    box-shadow:
+        0 0 5px #ff00a9,
+        inset 0 0 5px rgba(255, 0, 169, 0.3);
+}
+.footer-button-scrolltop:hover {
+    background: rgba(255, 0, 169, 0.1) !important;
+    color: #ff00a9 !important;
+    transform: translateY(-2px);
+    box-shadow:
+        0 0 15px #ff00a9,
+        0 0 25px #ff00a9,
+        inset 0 0 10px rgba(255, 0, 169, 0.5);
+    text-shadow: 0 0 10px #ff00a9;
+}
+.footer-button-scrolltop::after {
+    content: '';
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: #ff00a9;
+    box-shadow: 0 0 5px #ff00a9;
+    transition: all 0.3s ease;
+}
+.footer-button-scrolltop:hover::after {
+    box-shadow:
+        0 0 10px #ff00a9,
+        0 0 20px #ff00a9;
+}
+/* CONTROL */
+.footer { display: block; }
+.footer-mobile { display: none; }
+/* ======================================
+   RESPONSIVE: FOOTER
+====================================== */
+@media (max-width: 768px) {
+    .footer-mobile {
+        position: relative;
+        width: 100%;
+        box-sizing: border-box;
+        background: #2a0070 !important;
+        padding: 20px;
+        margin-top: auto;
+    }
+    /* LOGO Y COPYRIGHT */
+    .footer-brand-mobile {
+        width: 100%;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer-brand-logo-mobile {
+        display: block;
+        text-align: center;
+        background: transparent !important;
+        margin: 20px;
+        padding: 0;
+    }
+    .footer-brand-logo-mobile img {
+        max-width: 100%;
+        box-sizing: border-box;
+        width: auto;
+        height: 50px;
+        display: inline-block;
+    }
+    .footer-brand-allrightreserved-mobile {
+        font-family: 'Share Tech Mono', monospace;
+        font-size: 0.8rem;
+        color: #00FFFF !important;
+        text-decoration: none;
+        line-height: 1.5;
+        margin: 0 0 10px 0;
+    }
+    /* LINKS */
+    .footer-link-mobile {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0 0 10px 0;
+    }
+    .footer-link-termsandconditions-mobile a,
+    .footer-link-privacypolicy-mobile a,
+    .footer-link-cookiepolicy-mobile a {
+        position: relative;
+        z-index: 1;
+        font-family: 'Share Tech Mono', monospace;
+        font-size: 0.8rem;
+        color: #00FFFF !important;
+        text-decoration: none;
+        line-height: 1.5;
+        margin: 0 0 10px 0;
+        transition: all 0.3s ease;
+    }
+    /* REDES SOCIALES */
+    .footer-socialmedia-mobile {
+        position: relative;
+        z-index: 1;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 6px;
+        margin: 0 0 10px 0;
+    }
+    .footer-socialmedia-icon-mobile {
+        position: relative;
+        display: flex;
+        flex: 0 0 auto;
+        flex-direction: column;
+        width: 50px;
+        height: 50px;
+        box-sizing: border-box;
+        justify-content: center;
+        align-items: center;
+        background: transparent;
+        border: 1px dotted transparent;
+        margin: 0px;
+        padding: 0px;
+        transition: background 0.15s ease, border-color 0.15s ease;
+    }
+    .footer-socialmedia-icon-mobile:hover {
+        background: rgba(255, 0, 169, 0.15);
+        border-color: #ff00a9;
+    }
+    .footer-socialmedia-link-mobile {
+        display: block;
+        background: transparent !important;
+        text-decoration: none;
+        margin: 0px;
+        padding: 0px;
+    }
+    .footer-socialmedia-link-mobile::after {
+        content: "";
+        position: absolute;
+        inset: 0;
+        cursor: pointer;
+    }
+    .footer-socialmedia-folder-mobile {
+        display: block;
+        position: relative;
+        width: 36px;
+        height: 27px;
+        background: #cc0087;
+        margin: -3px -4px;
+        clip-path: polygon(0 4px, 4px 0, 24px 0, 28px 4px, 60px 4px, 64px 8px, 64px 48px, 0 48px);
+        transform: scale(0.75);
+        transition: filter 0.15s ease;
+    }
+    .footer-socialmedia-folder-mobile::before {
+        content: "";
+        position: absolute;
+        inset: 0;
+        background: #ff00a9;
+        clip-path: polygon(2px 5px, 4px 2px, 23px 2px, 27px 6px, 59px 6px, 62px 9px, 62px 46px, 2px 46px);
+    }
+    .footer-socialmedia-folder-mobile::after {
+        content: "";
+        position: absolute;
+        top: 8px;
+        left: 1px;
+        width: 34px;
+        height: 18px;
+        box-sizing: border-box;
+        background: #ffb3e6;
+        border-top: 2px solid #cc0087;
+        box-shadow: inset 1px 1px 0 #ffffff, inset -1px -1px 0 #ff80cc;
+    }
+    .footer-socialmedia-link-mobile:hover .footer-socialmedia-folder-mobile {
+        filter: brightness(1.2);
+    }
+    .footer-socialmedia-text-mobile {
+        display: block;
+        font-family: 'Share Tech Mono', monospace;
+        font-size: 0.5rem;
+        color: #ff00a9 !important;
+        text-decoration: none;
+        text-transform: none;
+        text-align: center;
+        line-height: 1.5;
+        white-space: nowrap;
+        margin: 3px 0px 0px 0px;
+        padding: 0px;
+    }
+    /* BOTÓN SCROLL TOP */
+    .footer-button-mobile {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        margin: 0px;
+    }
+    .footer-button-scrolltop-mobile {
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        border-radius: 6px;
+        font-family: 'Orbitron', sans-serif;
+        font-size: 1rem;
+        font-weight: bold;
+        text-transform: uppercase;
+        text-align: center;
+        margin: 0px;
+        padding: 10px 20px;
+        background: transparent !important;
+        color: #ff00a9 !important;
+        text-decoration: none;
+        border: 2px solid #ff00a9 !important;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        background:
+            repeating-linear-gradient(
+                45deg,
+                transparent,
+                transparent 2px,
+                rgba(255, 0, 169, 0.05) 2px,
+                rgba(255, 0, 169, 0.05) 4px
+            ) !important;
+        box-shadow:
+            0 0 5px #ff00a9,
+            inset 0 0 5px rgba(255, 0, 169, 0.3);
+    }
+    .footer-button-scrolltop-mobile:hover {
+        background: rgba(255, 0, 169, 0.1) !important;
+        color: #ff00a9 !important;
+        transform: translateY(-2px);
+        box-shadow:
+            0 0 15px #ff00a9,
+            0 0 25px #ff00a9,
+            inset 0 0 10px rgba(255, 0, 169, 0.5);
+        text-shadow: 0 0 10px #ff00a9;
+    }
+    .footer-button-scrolltop-mobile::after {
+        content: '';
+        position: absolute;
+        top: 5px;
+        right: 5px;
+        width: 6px;
+        height: 6px;
+        border-radius: 50%;
+        background: #ff00a9;
+        box-shadow: 0 0 5px #ff00a9;
+        transition: all 0.3s ease;
+    }
+    .footer-button-scrolltop-mobile:hover::after {
+        box-shadow:
+            0 0 10px #ff00a9,
+            0 0 20px #ff00a9;
+    }
+    /* CONTROL */
+    .footer { display: none; }
+    .footer-mobile { display: block; }
+}
+/* ======================================
+   FOOTER MOBILE — 370px (un poco más grande)
+====================================== */
+@media (max-width: 370px) {
+    .footer-socialmedia-mobile {
+        gap: 4px;
+    }
+    .footer-socialmedia-icon-mobile {
+        width: 42px;
+        height: 42px;
+    }
+    .footer-socialmedia-folder-mobile {
+        transform: scale(0.65);
+    }
+    .footer-socialmedia-text-mobile {
+        font-size: 0.52rem;
+    }
+}
+
+/* ======================================
+   FOOTER MOBILE — 320px (más pequeñas)
+====================================== */
+@media (max-width: 320px) {
+    .footer-socialmedia-mobile {
+        gap: 3px;
+    }
+    .footer-socialmedia-icon-mobile {
+        width: 38px;
+        height: 38px;
+    }
+    .footer-socialmedia-folder-mobile {
+        transform: scale(0.55);
+    }
+    .footer-socialmedia-text-mobile {
+        font-size: 0.45rem;
+    }
+}
 
 
 
