@@ -296,7 +296,7 @@ body {
     display: block;
     font-family: 'Share Tech Mono', monospace;
     font-size: 1.25rem;
-    color: #00FF00 !important;
+    color: withe !important;
     text-decoration: none;
     text-transform: uppercase;
     text-align: left;
@@ -316,10 +316,10 @@ body {
     padding: 0px;
 }
 .letsworktogether-word-1-mobile {
-    color: #00FFFF !important;
+color: white !important;
 }
 .letsworktogether-word-2-mobile {
-color: #FF00FF !important;
+color: white !important;
 }
 /* TÍTULO */
 .home-title {
@@ -343,7 +343,7 @@ color: #FF00FF !important;
         display: block;
         width: fit-content;
         box-sizing: border-box;
-        align-items: center;
+        align-items: left;
         background: transparent !important;
         border-top: 2px solid #ffffff;
         border-left: 2px solid #ffffff;
