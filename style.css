@@ -292,7 +292,7 @@ body {
     padding: 0px;
 }
 /* SUBTITULOS */
-.upcomingrelease-subtitle-1 {
+.home-subtitle-1 {
     display: block;
     font-family: 'Share Tech Mono', monospace;
     font-size: 1.25rem;
@@ -304,7 +304,7 @@ body {
     margin: 0 0 10px 0;
     padding: 0px;
 }
-.upcomingrelease-subtitle-2 {
+.home-subtitle-2 {
     display: block;
     font-family: 'Share Tech Mono', monospace;
     font-size: 1.25rem;
@@ -315,10 +315,10 @@ body {
     margin: 0 0 10px 0;
     padding: 0px;
 }
-.letsworktogether-word-1-mobile {
+.home-word-1-mobile {
 color: white !important;
 }
-.letsworktogether-word-2-mobile {
+.home-word-2-mobile {
 color: white !important;
 }
 /* TÍTULO */
