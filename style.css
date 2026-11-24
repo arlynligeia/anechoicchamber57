@@ -390,7 +390,7 @@ body {
     border: none;
     border-radius: 0px;
     font-family: 'Orbitron', sans-serif;
-    font-size: 1rem;
+    font-size: 1.2rem;
     color: white !important;
     text-decoration: none;
     text-transform: uppercase;
@@ -407,8 +407,8 @@ body {
 /* ======================================
    CONTROL
 ====================================== */
-.container-1 { display: none; }
-.container-1-mobile { display: block; }
+.container-1 { display: block; }
+.container-1-mobile { display: none; }
 /* ======================================
    HOME - MOBILE
 ====================================== */
@@ -434,7 +434,7 @@ body {
     .home-subtitle-1-mobile {
         display: block;
         font-family: 'Share Tech Mono', monospace;
-        font-size: 1.5rem;
+        font-size: 1.2rem;
         color: white !important;
         text-decoration: none;
         text-transform: uppercase;
@@ -446,7 +446,7 @@ body {
     .home-subtitle-2-mobile {
         display: block;
         font-family: 'Share Tech Mono', monospace;
-        font-size: 1.5rem;
+        font-size: 1.2rem;
         color: white !important;
         text-decoration: none;
         text-transform: uppercase;
@@ -465,7 +465,7 @@ body {
     .home-title-mobile {
         display: block;
         font-family: 'Orbitron', sans-serif;
-        font-size: 4rem;
+        font-size: 3rem;
         color: white !important;
         text-decoration: none;
         text-transform: uppercase;
@@ -545,8 +545,8 @@ body {
     /* ======================================
        CONTROL
     ====================================== */
-    .container-1 { display: block; }
-    .container-1-mobile { display: none; }
+    .container-1 { display: none; }
+    .container-1-mobile { display: block; }
 }
 
 
