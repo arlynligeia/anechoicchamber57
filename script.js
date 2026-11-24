@@ -262,3 +262,53 @@ document.addEventListener('DOMContentLoaded', function () {
     console.log('✅ Navegación mobile configurada correctamente');
 });
 
+
+
+/* ======================================
+   SCRIPT: NOTIFICACIÓN PROJECTDETAILS - PC
+====================================== */
+document.addEventListener('DOMContentLoaded', function () {
+    const closeBtn        = document.getElementById('projectdetails-button-close');
+    const notification    = document.getElementById('projectdetails-notification');
+    const notificationBtn = document.getElementById('projectdetails-button-stay');
+    if (closeBtn && notification && notificationBtn) {
+        // Al hacer clic en la X → mostrar notificación
+        closeBtn.addEventListener('click', () => {
+            notification.classList.add('show');
+        });
+        // Al hacer clic en STAY → ocultar notificación
+        notificationBtn.addEventListener('click', () => {
+            notification.classList.remove('show');
+        });
+    }
+});
+
+/* ======================================
+   SCRIPT: NOTIFICACIÓN PROJECTDETAILS - MOBILE
+====================================== */
+document.addEventListener('DOMContentLoaded', function () {
+    const closeBtnMobile        = document.getElementById('projectdetails-button-close-mobile');
+    const notificationMobile    = document.getElementById('projectdetails-notification-mobile');
+    const notificationBtnMobile = document.getElementById('projectdetails-button-stay-mobile');
+    if (closeBtnMobile && notificationMobile && notificationBtnMobile) {
+        // Al hacer clic en la X → mostrar notificación
+        closeBtnMobile.addEventListener('click', () => {
+            notificationMobile.classList.add('show');
+        });
+        // Al hacer clic en STAY → ocultar notificación
+        notificationBtnMobile.addEventListener('click', () => {
+            notificationMobile.classList.remove('show');
+        });
+    }
+});
+
+
+
+
+
+
+
+
+
+
+
