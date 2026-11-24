@@ -407,8 +407,8 @@ body {
 /* ======================================
    CONTROL
 ====================================== */
-.container-1 { display: block; }
-.container-1-mobile { display: none; }
+.home-container { display: block; }
+.home-container-mobile { display: none; }
 /* ======================================
    HOME - MOBILE
 ====================================== */
@@ -545,8 +545,8 @@ body {
     /* ======================================
        CONTROL
     ====================================== */
-    .container-1 { display: none; }
-    .container-1-mobile { display: block; }
+    .home-container { display: none; }
+    .home-container-mobile { display: block; }
 }
 
 
