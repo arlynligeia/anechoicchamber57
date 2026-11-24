@@ -684,7 +684,7 @@ body {
 .projectdetails-container-4 {
     width: 100%;
     box-sizing: border-box;
-    background: #3f00a8 !important;
+    background: #0b0630 !important;
     border-top:    2px solid #8a55f0;
     border-left:   2px solid #8a55f0;
     border-right:  2px solid #ffffff;
@@ -701,19 +701,15 @@ body {
     padding: 0px;
 }
 /* TEXTO */
-.projectdetails-text,
-.projectdetails-text-end {
+.projectdetails-text {
     font-family: 'Share Tech Mono', monospace;
     font-size: 1.25rem;
-    color: #00FF00 !important;
+    color: white !important;
     text-decoration: none;
     text-align: left;
     line-height: 1.5;
     margin: 0 0 10px 0;
     padding: 0px;
-}
-.projectdetails-text-end {
-    margin-bottom: 0px;
 }
 /* NOTIFICACIÓN - CONTENEDOR */
 .projectdetails-notification-1 {
@@ -897,6 +893,22 @@ body {
 .projectdetails-notification-information-mobile { display: none; }
 .projectdetails-notification-button-2 { display: block; }
 .projectdetails-notification-button-2-mobile { display: none; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* ======================================
    PROJECTDETAILS - RESPONSIVE
 ====================================== */
