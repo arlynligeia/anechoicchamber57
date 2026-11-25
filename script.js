@@ -361,7 +361,6 @@ document.addEventListener('DOMContentLoaded', function () {
         updateCarousel(0);
     }
 });
-
 /* ======================================
    SCRIPT: TEXTURES - MOBILE
 ====================================== */
@@ -411,6 +410,134 @@ document.addEventListener('DOMContentLoaded', function () {
     }
 });
 
+
+
+/* ======================================
+   SCRIPT: FABRICS - PC
+====================================== */
+document.addEventListener('DOMContentLoaded', function () {
+    const closeBtn        = document.getElementById('fabrics-button-close');
+    const notification    = document.getElementById('fabrics-notification');
+    const notificationBtn = document.getElementById('fabrics-button-stay');
+    if (closeBtn && notification && notificationBtn) {
+        // Al hacer clic en la X → mostrar notificación
+        closeBtn.addEventListener('click', () => {
+            notification.classList.add('show');
+        });
+        // Al hacer clic en STAY → ocultar notificación
+        notificationBtn.addEventListener('click', () => {
+            notification.classList.remove('show');
+        });
+    }
+
+    // Carrusel PC
+    const images  = document.querySelectorAll('#collection-fabrics .fabrics-image');
+    const prevBtn = document.getElementById('fabrics-button-prev');
+    const nextBtn = document.getElementById('fabrics-button-next');
+    const counter = document.getElementById('fabrics-counter');
+    const caption = document.getElementById('fabrics-caption');
+    const fabricNames = [
+        'IRIDESCENT LYCRA',
+        'LILAC METALLIC LYCRA',
+        'FUCHSIA METALLIC LYCRA',
+        'EMERALD GREEN METALLIC LYCRA',
+        'BLUE AMERICAN LYCRA',
+        'NEON FUCHSIA AMERICAN LYCRA',
+        'NEON GREEN AMERICAN LYCRA',
+        'SEQUINED VELVET'
+    ];
+    let currentIndex = 0;
+
+    function updateCarousel(index) {
+        if (!images.length) return;
+        currentIndex = (index + images.length) % images.length;
+
+        images.forEach((img, i) => {
+            img.classList.toggle('active', i === currentIndex);
+        });
+
+        if (counter) {
+            counter.textContent = `${currentIndex + 1} OF ${images.length}`;
+        }
+
+        if (caption) {
+            caption.textContent = fabricNames[currentIndex] || '';
+        }
+    }
+
+    if (prevBtn && nextBtn && images.length > 0) {
+        prevBtn.addEventListener('click', () => {
+            updateCarousel(currentIndex - 1);
+        });
+        nextBtn.addEventListener('click', () => {
+            updateCarousel(currentIndex + 1);
+        });
+        updateCarousel(0);
+    }
+});
+/* ======================================
+   SCRIPT: FABRICS - MOBILE
+====================================== */
+document.addEventListener('DOMContentLoaded', function () {
+    const closeBtnMobile        = document.getElementById('fabrics-button-close-mobile');
+    const notificationMobile    = document.getElementById('fabrics-notification-mobile');
+    const notificationBtnMobile = document.getElementById('fabrics-button-stay-mobile');
+    if (closeBtnMobile && notificationMobile && notificationBtnMobile) {
+        // Al hacer clic en la X → mostrar notificación
+        closeBtnMobile.addEventListener('click', () => {
+            notificationMobile.classList.add('show');
+        });
+        // Al hacer clic en STAY → ocultar notificación
+        notificationBtnMobile.addEventListener('click', () => {
+            notificationMobile.classList.remove('show');
+        });
+    }
+
+    // Carrusel Mobile
+    const imagesMobile  = document.querySelectorAll('#collection-mobile-fabrics .fabrics-image-mobile');
+    const prevBtnMobile = document.getElementById('fabrics-button-prev-mobile');
+    const nextBtnMobile = document.getElementById('fabrics-button-next-mobile');
+    const counterMobile = document.getElementById('fabrics-counter-mobile');
+    const captionMobile = document.getElementById('fabrics-caption-mobile');
+    const fabricNamesMobile = [
+        'IRIDESCENT LYCRA',
+        'LILAC METALLIC LYCRA',
+        'FUCHSIA METALLIC LYCRA',
+        'EMERALD GREEN METALLIC LYCRA',
+        'BLUE AMERICAN LYCRA',
+        'NEON FUCHSIA AMERICAN LYCRA',
+        'NEON GREEN AMERICAN LYCRA',
+        'SEQUINED VELVET'
+    ];
+    let currentIndexMobile = 0;
+
+    function updateCarouselMobile(index) {
+        if (!imagesMobile.length) return;
+        currentIndexMobile = (index + imagesMobile.length) % imagesMobile.length;
+
+        imagesMobile.forEach((img, i) => {
+            img.classList.toggle('active', i === currentIndexMobile);
+        });
+
+        if (counterMobile) {
+            counterMobile.textContent = `${currentIndexMobile + 1} OF ${imagesMobile.length}`;
+        }
+
+        if (captionMobile) {
+            captionMobile.textContent = fabricNamesMobile[currentIndexMobile] || '';
+        }
+    }
+
+    if (prevBtnMobile && nextBtnMobile && imagesMobile.length > 0) {
+        prevBtnMobile.addEventListener('click', () => {
+            updateCarouselMobile(currentIndexMobile - 1);
+        });
+        nextBtnMobile.addEventListener('click', () => {
+            updateCarouselMobile(currentIndexMobile + 1);
+        });
+        updateCarouselMobile(0);
+    }
+});
 
 
 
