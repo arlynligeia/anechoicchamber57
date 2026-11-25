@@ -1874,23 +1874,6 @@ body {
     border-right-color: #bae6fd;
     border-bottom-color: #bae6fd;
 }
-/* BOTÓN CERRAR - TEXT */
-.mediumlengthfilm-button-text-mobile {
-    display: block;
-    font-family: 'Orbitron', sans-serif;
-    font-size: 1rem;
-    color: white !important;
-    text-decoration: none;
-    text-transform: uppercase;
-    line-height: 1;
-    margin: 0px;
-    padding: 0px;
-    cursor: pointer;
-    transition: filter 0.15s ease;
-}
-.mediumlengthfilm-button-text-mobile:hover {
-    filter: brightness(1.1);
-}
 /* CONTENIDO */
 .mediumlengthfilm-container-3-mobile {
     width: 100%;
@@ -1942,7 +1925,7 @@ body {
 .mediumlengthfilm-text-1-mobile {
     display: block;
     font-family: 'Share Tech Mono', monospace;
-    font-size: 1.05rem;
+    font-size: 0.8rem;
     color: white !important;
     text-decoration: none;
     text-align: right;
@@ -1959,7 +1942,7 @@ body {
 .mediumlengthfilm-text-2-mobile {
     display: block;
     font-family: 'Share Tech Mono', monospace;
-    font-size: 1.05rem;
+    font-size: 0.8rem;
     color: #7dd3fc !important;
     text-decoration: none;
     text-align: left;
