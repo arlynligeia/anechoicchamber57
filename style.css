@@ -2153,6 +2153,12 @@ body {
 
 
 
+
+
+
+
+
+
 /* ======================================
    SYNOPSIS - PC
 ====================================== */
@@ -2304,19 +2310,15 @@ body {
     padding: 0px;
 }
 /* TEXTO */
-.synopsis-text,
-.synopsis-text-end {
+.synopsis-text {
     font-family: 'Share Tech Mono', monospace;
     font-size: 1.25rem;
     color: white !important;
     text-decoration: none;
     text-align: left;
     line-height: 1.5;
-    margin: 0 0 10px 0;
+    margin: 0px ;
     padding: 0px;
-}
-.synopsis-text-end {
-    margin-bottom: 0px;
 }
 /* NOTIFICACIÓN - CONTENEDOR */
 .synopsis-notification-1 {
@@ -2654,21 +2656,17 @@ body {
         padding: 0px;
     }
     /* TEXTO */
-    .synopsis-text-mobile,
-    .synopsis-text-end-mobile {
+    .synopsis-text-mobile {
         font-family: 'Share Tech Mono', monospace;
         font-size: 1.05rem;
         color: white !important;
         text-decoration: none;
         line-height: 1.5;
         text-align: left;
-        margin: 0 0 10px 0;
+        margin: 0px;
         padding: 0px;
     }
-    .synopsis-text-end-mobile {
-        margin-bottom: 0px;
-    }  
-    /* NOTIFICACIÓN - CONTENEDOR */
+      /* NOTIFICACIÓN - CONTENEDOR */
     .synopsis-notification-1-mobile {
         position: fixed;
         top: 50%;
@@ -2857,6 +2855,10 @@ body {
     .synopsis-title-mobile { font-size: 1.3rem; }
     .synopsis-text-mobile { font-size: 0.8rem; }
 }
+
+
+
+
 
 
 
