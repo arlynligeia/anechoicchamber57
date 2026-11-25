@@ -1781,7 +1781,7 @@ body {
     border-right: 2px solid #2563eb;
     border-bottom: 2px solid #2563eb;
     border-radius: 0px;
-    margin: 50px auto 50px auto;
+    margin: 80px auto 40px auto;
     padding: 0px;
 }
 .mediumlengthfilm-container-2-mobile {
@@ -1819,7 +1819,7 @@ body {
     text-decoration: none;
     text-transform: uppercase;
     text-align: left;
-    line-height: 1.6;
+    line-height: 1.5;
     margin: 0px;
     padding: 0px;
 }
@@ -1830,8 +1830,8 @@ body {
 /* BOTÓN CERRAR */
 .mediumlengthfilm-button-1-mobile {
     display: flex;
-    width: 40px;
-    height: 40px;
+    width: 35px;
+    height: 35px;
     box-sizing: border-box;
     justify-content: center;
     align-items: center;
@@ -1911,7 +1911,7 @@ body {
     border-bottom: 2px solid #e0f7ff;
     border-radius: 0px;
     margin: 0px;
-    padding: 30px;
+    padding: 20px;
 }
 /* COLUMNAS */
 .mediumlengthfilm-columns-mobile {
