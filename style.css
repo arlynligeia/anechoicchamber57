@@ -4749,8 +4749,8 @@ body {
 .textures-nav-button-text {
     display: block;
     font-family: 'Orbitron', sans-serif;
-    font-size: 1rem;
-    color: white !important;
+    font-size: 1.2rem;
+    color: black !important;
     text-decoration: none;
     text-transform: uppercase;
     line-height: 1;
