@@ -4650,7 +4650,7 @@ body {
     border-right:  2px solid #e0f7ff;
     border-bottom: 2px solid #e0f7ff;
     border-radius: 0px;
-    margin: 0 0 15px 0;
+    margin: 0 auto 15px auto;
     padding: 0px;
 }
 .textures-image {
@@ -4684,7 +4684,7 @@ body {
     display: flex;
     width: 100%;
     box-sizing: border-box;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     gap: 15px;
     margin: 0px;
