@@ -4640,7 +4640,8 @@ body {
 /* IMÁGENES */
 .textures-images {
     position: relative;
-    width: 100%;
+    width: 500px;
+    height: auto;
     overflow: hidden;
     align-items: center;
     background: #07031a !important;
@@ -4654,7 +4655,7 @@ body {
 }
 .textures-image {
     display: none;
-    width: 500px;
+    width: 100%;
     height: auto;
     object-fit: cover;
     margin: 0px;
@@ -4663,6 +4664,9 @@ body {
 .textures-image.active {
     display: block;
 }
+
+
+
 /* TEXTO DEBAJO DE LA IMAGEN */
 .textures-caption {
     font-family: 'Share Tech Mono', monospace;
@@ -5108,6 +5112,7 @@ body {
     .textures-carousel-mobile {
         width: 100%;
         box-sizing: border-box;
+        
         margin: 0px;
         padding: 0px;
     }
@@ -5136,6 +5141,8 @@ body {
     .textures-image-mobile.active {
         display: block;
     }
+
+    
     /* TEXTO DEBAJO DE LA IMAGEN MOBILE */
     .textures-caption-mobile {
         font-family: 'Share Tech Mono', monospace;
