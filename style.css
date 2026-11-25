@@ -2159,6 +2159,9 @@ body {
 
 
 
+
+
+
 /* ======================================
    SYNOPSIS - PC
 ====================================== */
@@ -2199,7 +2202,7 @@ body {
     border: 4px solid #7dd3fc;
     border-radius: 0px;
     margin: 0px;
-    padding: 15px;
+    padding: 20px;
 }
 /* TÍTULO */
 .synopsis-title {
@@ -2274,6 +2277,8 @@ body {
     text-decoration: none;
     text-transform: uppercase;
     line-height: 1;
+    margin: 0px;
+    padding: 0px;
     cursor: pointer;
     transition: filter 0.15s ease;
 }
@@ -2336,6 +2341,7 @@ body {
     border-right:  2px solid #2563eb;
     border-bottom: 2px solid #2563eb;
     border-radius: 0px;
+    margin: 0px ;
     padding: 0px;
     opacity: 0;
     pointer-events: none;
@@ -2621,6 +2627,8 @@ body {
         text-decoration: none;
         text-transform: uppercase;
         line-height: 1;
+        margin: 0px;
+        padding: 0px;
         transition: filter 0.15s ease;
     }
     .synopsis-button-text-mobile:hover {
