@@ -4482,6 +4482,9 @@ body {
 
 
 
+
+
+
 /* ======================================
    TEXTURES - PC
 ====================================== */
@@ -4634,23 +4637,23 @@ body {
     margin: 0px;
     padding: 0px;
 }
-/* CONTENEDOR DE IMÁGENES */
-.textures-image-container {
+/* IMÁGENES */
+.textures-images {
     position: relative;
     width: 100%;
     overflow: hidden;
     background: #07031a !important;
-    border-top:    2px solid #e0f7ff;
-    border-left:   2px solid #e0f7ff;
-    border-right:  2px solid #2563eb;
-    border-bottom: 2px solid #2563eb;
+    border-top:    2px solid #2563eb;
+    border-left:   2px solid #2563eb;
+    border-right:  2px solid #e0f7ff;
+    border-bottom: 2px solid #e0f7ff;
     border-radius: 0px;
     margin: 0 0 15px 0;
     padding: 0px;
 }
 .textures-image {
     display: none;
-    width: 100%;
+    width: 500px;
     height: auto;
     object-fit: cover;
     margin: 0px;
@@ -4662,8 +4665,8 @@ body {
 /* TEXTO DEBAJO DE LA IMAGEN */
 .textures-caption {
     font-family: 'Share Tech Mono', monospace;
-    font-size: 1.25rem;
-    color: white !important;
+    font-size: 1.5rem;
+    color: #bae6fd !important;
     text-decoration: none;
     text-transform: uppercase;
     text-align: center;
@@ -4674,26 +4677,29 @@ body {
 /* CONTROLES CARRUSEL */
 .textures-controls {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
     width: 100%;
     box-sizing: border-box;
+    justify-content: space-between;
+    align-items: center;
     gap: 15px;
     margin: 0px;
     padding: 0px;
 }
 /* CONTADOR */
 .textures-counter {
-    font-family: 'Orbitron', sans-serif;
-    font-size: 1.1rem;
-    color: #bae6fd !important;
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 1.25rem;
+    color: white !important;
     text-transform: uppercase;
     text-align: center;
     line-height: 1;
     margin: 0px;
     padding: 0px;
 }
-/* BOTONES PREVIOUS / NEXT */
+
+
+
+/* BOTONES - PREVIOUS / NEXT */
 .textures-nav-button-1 {
     display: flex;
     width: fit-content;
@@ -4723,7 +4729,7 @@ body {
     box-sizing: border-box;
     justify-content: center;
     align-items: center;
-    background: #07031a !important;
+    background: #ff71ce !important;
     border-top:    2px solid #bae6fd;
     border-left:   2px solid #bae6fd;
     border-right:  2px solid #3b82f6;
@@ -4739,6 +4745,7 @@ body {
     border-right-color:  #bae6fd;
     border-bottom-color: #bae6fd;
 }
+/* BOTONES - PREVIOUS / NEXT - TEXT */
 .textures-nav-button-text {
     display: block;
     font-family: 'Orbitron', sans-serif;
@@ -4755,6 +4762,9 @@ body {
 .textures-nav-button-text:hover {
     filter: brightness(1.1);
 }
+
+
+
 /* NOTIFICACIÓN - CONTENEDOR */
 .textures-notification-1 {
     position: fixed;
@@ -4938,6 +4948,13 @@ body {
 .textures-notification-information-mobile { display: none; }
 .textures-notification-button-2 { display: block; }
 .textures-notification-button-2-mobile { display: none; }
+
+
+
+
+
+
+
 /* ======================================
    TEXTURES - RESPONSIVE
 ====================================== */
@@ -5411,6 +5428,14 @@ body {
     .textures-nav-button-text-mobile { font-size: 0.65rem; }
     .textures-counter-mobile { font-size: 0.75rem; }
 }
+
+
+
+
+
+
+
+
 
 
 
