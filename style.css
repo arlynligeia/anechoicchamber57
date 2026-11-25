@@ -4583,7 +4583,7 @@ body {
     box-sizing: border-box;
     justify-content: center;
     align-items: center;
-    background: #0b0630;
+    background: #ff71ce !important;
     border-top:    2px solid #bae6fd;
     border-left:   2px solid #bae6fd;
     border-right:  2px solid #3b82f6;
@@ -4604,7 +4604,7 @@ body {
     display: block;
     font-family: 'Orbitron', sans-serif;
     font-size: 1.2rem;
-    color: white !important;
+    color: black !important;
     text-decoration: none;
     text-transform: uppercase;
     line-height: 1;
@@ -5050,7 +5050,7 @@ body {
         box-sizing: border-box;
         justify-content: center;
         align-items: center;
-        background: #0b0630;
+        background: #ff71ce !important;
         border-top:    2px solid #bae6fd;
         border-left:   2px solid #bae6fd;
         border-right:  2px solid #3b82f6;
@@ -5071,7 +5071,7 @@ body {
         display: block;
         font-family: 'Orbitron', sans-serif;
         font-size: 1rem;
-        color: white !important;
+        color: black !important;
         text-decoration: none;
         text-transform: uppercase;
         line-height: 1;
