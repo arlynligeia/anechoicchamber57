@@ -312,3 +312,110 @@ document.addEventListener('DOMContentLoaded', function () {
 
 
 
+
+/* ======================================
+   SCRIPT: TEXTURES - PC
+====================================== */
+document.addEventListener('DOMContentLoaded', function () {
+    const closeBtn        = document.getElementById('textures-button-close');
+    const notification    = document.getElementById('textures-notification');
+    const notificationBtn = document.getElementById('textures-button-stay');
+    if (closeBtn && notification && notificationBtn) {
+        // Al hacer clic en la X → mostrar notificación
+        closeBtn.addEventListener('click', () => {
+            notification.classList.add('show');
+        });
+        // Al hacer clic en STAY → ocultar notificación
+        notificationBtn.addEventListener('click', () => {
+            notification.classList.remove('show');
+        });
+    }
+
+    // Carrusel PC
+    const images  = document.querySelectorAll('#collection-textures .textures-image');
+    const prevBtn = document.getElementById('textures-button-prev');
+    const nextBtn = document.getElementById('textures-button-next');
+    const counter = document.getElementById('textures-counter');
+    let currentIndex = 0;
+
+    function updateCarousel(index) {
+        if (!images.length) return;
+        currentIndex = (index + images.length) % images.length;
+
+        images.forEach((img, i) => {
+            img.classList.toggle('active', i === currentIndex);
+        });
+
+        if (counter) {
+            counter.textContent = `${currentIndex + 1} OF ${images.length}`;
+        }
+    }
+
+    if (prevBtn && nextBtn && images.length > 0) {
+        prevBtn.addEventListener('click', () => {
+            updateCarousel(currentIndex - 1);
+        });
+        nextBtn.addEventListener('click', () => {
+            updateCarousel(currentIndex + 1);
+        });
+        updateCarousel(0);
+    }
+});
+
+/* ======================================
+   SCRIPT: TEXTURES - MOBILE
+====================================== */
+document.addEventListener('DOMContentLoaded', function () {
+    const closeBtnMobile        = document.getElementById('textures-button-close-mobile');
+    const notificationMobile    = document.getElementById('textures-notification-mobile');
+    const notificationBtnMobile = document.getElementById('textures-button-stay-mobile');
+    if (closeBtnMobile && notificationMobile && notificationBtnMobile) {
+        // Al hacer clic en la X → mostrar notificación
+        closeBtnMobile.addEventListener('click', () => {
+            notificationMobile.classList.add('show');
+        });
+        // Al hacer clic en STAY → ocultar notificación
+        notificationBtnMobile.addEventListener('click', () => {
+            notificationMobile.classList.remove('show');
+        });
+    }
+
+    // Carrusel Mobile
+    const imagesMobile  = document.querySelectorAll('#collection-mobile-textures .textures-image-mobile');
+    const prevBtnMobile = document.getElementById('textures-button-prev-mobile');
+    const nextBtnMobile = document.getElementById('textures-button-next-mobile');
+    const counterMobile = document.getElementById('textures-counter-mobile');
+    let currentIndexMobile = 0;
+
+    function updateCarouselMobile(index) {
+        if (!imagesMobile.length) return;
+        currentIndexMobile = (index + imagesMobile.length) % imagesMobile.length;
+
+        imagesMobile.forEach((img, i) => {
+            img.classList.toggle('active', i === currentIndexMobile);
+        });
+
+        if (counterMobile) {
+            counterMobile.textContent = `${currentIndexMobile + 1} OF ${imagesMobile.length}`;
+        }
+    }
+
+    if (prevBtnMobile && nextBtnMobile && imagesMobile.length > 0) {
+        prevBtnMobile.addEventListener('click', () => {
+            updateCarouselMobile(currentIndexMobile - 1);
+        });
+        nextBtnMobile.addEventListener('click', () => {
+            updateCarouselMobile(currentIndexMobile + 1);
+        });
+        updateCarouselMobile(0);
+    }
+});
+
+
+
+
+
+
+
+
+
