@@ -275,7 +275,6 @@ body {
 /* ======================================
    HOME - PC
 ====================================== */
-/* CONTENEDOR */
 .home-container {
     position: relative;
     width: 90%;
@@ -301,7 +300,7 @@ body {
     text-decoration: none;
     text-transform: uppercase;
     text-align: left;
-    line-height: 1.5;
+    line-height: 1;
     margin: 0px 0px 5px 0px;
     padding: 0px;
 }
@@ -313,7 +312,7 @@ body {
     text-decoration: none;
     text-transform: uppercase;
     text-align: left;
-    line-height: 1.5;
+    line-height: 1;
     margin: 5px 0px 10px 0px;
     padding: 0px;
 }
@@ -346,58 +345,53 @@ body {
     width: fit-content;
     box-sizing: border-box;
     background: transparent !important;
-    border-top: 2px solid #ffffff;
-    border-left: 2px solid #ffffff;
-    border-right: 2px solid #8a55f0;
-    border-bottom: 2px solid #8a55f0;
+    border-top: 2px solid #e0f7ff;
+    border-left: 2px solid #e0f7ff;
+    border-right: 2px solid #2563eb;
+    border-bottom: 2px solid #2563eb;
     border-radius: 0px;
     margin: 0px;
     padding: 0px;
     transition: border-color 0.15s ease;
 }
 .home-button-1:hover {
-    border-top-color: #8a55f0;
-    border-left-color: #8a55f0;
-    border-right-color: #ffffff;
-    border-bottom-color: #ffffff;
+    border-top-color: #2563eb;
+    border-left-color: #2563eb;
+    border-right-color: #e0f7ff;
+    border-bottom-color: #e0f7ff;
 }
 .home-button-2 {
     display: block;
     width: fit-content;
     box-sizing: border-box;
-    background: transparent !important;
-    border-top: 2px solid #e6ccff;
-    border-left: 2px solid #e6ccff;
-    border-right: 2px solid #b388ff;
-    border-bottom: 2px solid #b388ff;
+    background: #FF71CE !important;
+    border-top: 2px solid #bae6fd;
+    border-left: 2px solid #bae6fd;
+    border-right: 2px solid #3b82f6;
+    border-bottom: 2px solid #3b82f6;
     border-radius: 0px;
     margin: 0px;
-    padding: 0px;
+    padding: 10px 10px;
     transition: border-color 0.15s ease;
 }
 .home-button-2:hover {
-    border-top-color: #b388ff;
-    border-left-color: #b388ff;
-    border-right-color: #e6ccff;
-    border-bottom-color: #e6ccff;
+    border-top-color: #3b82f6;
+    border-left-color: #3b82f6;
+    border-right-color: #bae6fd;
+    border-bottom-color: #bae6fd;
 }
 /* BOTÓN - TEXTO */
 .home-button-text {
     display: block;
-    width: auto;
-    box-sizing: border-box;
-    background: #ff00a9 !important;
-    border: none;
-    border-radius: 0px;
     font-family: 'Orbitron', sans-serif;
     font-size: 1.2rem;
-    color: white !important;
+    color: black !important;
     text-decoration: none;
     text-transform: uppercase;
     text-align: center;
     font-weight: bold;
     margin: 0px;
-    padding: 10px 20px;
+    padding: 0px;
     cursor: pointer;
     transition: filter 0.15s ease;
 }
@@ -413,7 +407,6 @@ body {
    HOME - MOBILE
 ====================================== */
 @media (max-width: 600px) {
-    /* CONTENEDOR */
     .home-container-mobile {
         position: relative;
         width: 90%;
@@ -421,8 +414,9 @@ body {
         border: transparent !important;
         border-radius: 0px;
         margin: 350px auto 50px auto;
-        padding: 30px;
+        padding: 20px;
     }
+
     /* INFORMACIÓN */
     .home-information-mobile {
         width: 100%;
@@ -439,7 +433,7 @@ body {
         text-decoration: none;
         text-transform: uppercase;
         text-align: left;
-        line-height: 1.5;
+        line-height: 1;
         margin: 0px 0px 5px 0px;
         padding: 0px;
     }
@@ -451,7 +445,7 @@ body {
         text-decoration: none;
         text-transform: uppercase;
         text-align: left;
-        line-height: 1.5;
+        line-height: 1;
         margin: 5px 0px 10px 0px;
         padding: 0px;
     }
@@ -484,62 +478,57 @@ body {
         width: fit-content;
         box-sizing: border-box;
         background: transparent !important;
-        border-top: 2px solid #ffffff;
-        border-left: 2px solid #ffffff;
-        border-right: 2px solid #8a55f0;
-        border-bottom: 2px solid #8a55f0;
+        border-top: 2px solid #e0f7ff;
+        border-left: 2px solid #e0f7ff;
+        border-right: 2px solid #2563eb;
+        border-bottom: 2px solid #2563eb;
         border-radius: 0px;
         margin: 0px;
         padding: 0px;
         transition: border-color 0.15s ease;
     }
     .home-button-1-mobile:hover {
-        border-top-color: #8a55f0;
-        border-left-color: #8a55f0;
-        border-right-color: #ffffff;
-        border-bottom-color: #ffffff;
+        border-top-color: #2563eb;
+        border-left-color: #2563eb;
+        border-right-color: #e0f7ff;
+        border-bottom-color: #e0f7ff;
     }
     .home-button-2-mobile {
         display: block;
         width: fit-content;
         box-sizing: border-box;
-        background: transparent !important;
-        border-top: 2px solid #e6ccff;
-        border-left: 2px solid #e6ccff;
-        border-right: 2px solid #b388ff;
-        border-bottom: 2px solid #b388ff;
+        background: #FF71CE !important;
+        border-top: 2px solid #bae6fd;
+        border-left: 2px solid #bae6fd;
+        border-right: 2px solid #3b82f6;
+        border-bottom: 2px solid #3b82f6;
         border-radius: 0px;
         margin: 0px;
-        padding: 0px;
+        padding: 10px 10px;
         transition: border-color 0.15s ease;
     }
     .home-button-2-mobile:hover {
-        border-top-color: #b388ff;
-        border-left-color: #b388ff;
-        border-right-color: #e6ccff;
-        border-bottom-color: #e6ccff;
+        border-top-color: #3b82f6;
+        border-left-color: #3b82f6;
+        border-right-color: #bae6fd;
+        border-bottom-color: #bae6fd;
     }
     /* BOTÓN - TEXTO */
     .home-button-text-mobile {
         display: block;
-        width: auto;
-        box-sizing: border-box;
-        background: #ff00a9 !important;
-        border: none;
-        border-radius: 0px;
         font-family: 'Orbitron', sans-serif;
         font-size: 1rem;
-        color: white !important;
+        color: black !important;
         text-decoration: none;
         text-transform: uppercase;
         text-align: center;
         font-weight: bold;
         margin: 0px;
-        padding: 10px 20px;
+        padding: 0px;
         cursor: pointer;
         transition: filter 0.15s ease;
     }
-    .home-button-text-mobile:hover {
+    .home-button-text:hover {
         filter: brightness(1.1);
     }
     /* ======================================
@@ -548,6 +537,32 @@ body {
     .home-container { display: none; }
     .home-container-mobile { display: block; }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* ======================================
