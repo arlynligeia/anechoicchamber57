@@ -343,6 +343,41 @@ document.addEventListener('DOMContentLoaded', function () {
 
 
 
+/* ======================================
+   SCRIPT: NOTIFICACIÓN SYNOPSIS - PC
+====================================== */
+document.addEventListener('DOMContentLoaded', function () {
+    const closeBtn        = document.getElementById('synopsis-button-close');
+    const notification    = document.getElementById('synopsis-notification');
+    const notificationBtn = document.getElementById('synopsis-button-stay');
+    if (closeBtn && notification && notificationBtn) {
+        closeBtn.addEventListener('click', () => {
+            notification.classList.add('show');
+        });
+        notificationBtn.addEventListener('click', () => {
+            notification.classList.remove('show');
+        });
+    }
+});
+/* ======================================
+   SCRIPT: NOTIFICACIÓN SYNOPSIS - MOBILE
+====================================== */
+document.addEventListener('DOMContentLoaded', function () {
+    const closeBtnMobile        = document.getElementById('synopsis-button-close-mobile');
+    const notificationMobile    = document.getElementById('synopsis-notification-mobile');
+    const notificationBtnMobile = document.getElementById('synopsis-button-stay-mobile');
+    if (closeBtnMobile && notificationMobile && notificationBtnMobile) {
+        closeBtnMobile.addEventListener('click', () => {
+            notificationMobile.classList.add('show');
+        });
+        notificationBtnMobile.addEventListener('click', () => {
+            notificationMobile.classList.remove('show');
+        });
+    }
+});
+
+
+
 
 
 
