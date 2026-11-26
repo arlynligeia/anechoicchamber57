@@ -378,6 +378,40 @@ document.addEventListener('DOMContentLoaded', function () {
 
 
 
+/* ======================================
+   SCRIPT: NOTIFICACIÓN DISTRIBUTION - PC
+====================================== */
+document.addEventListener('DOMContentLoaded', function () {
+    const closeBtn        = document.getElementById('distribution-button-close');
+    const notification    = document.getElementById('distribution-notification');
+    const notificationBtn = document.getElementById('distribution-button-stay');
+    if (closeBtn && notification && notificationBtn) {
+        closeBtn.addEventListener('click', () => {
+            notification.classList.add('show');
+        });
+        notificationBtn.addEventListener('click', () => {
+            notification.classList.remove('show');
+        });
+    }
+});
+/* ======================================
+   SCRIPT: NOTIFICACIÓN DISTRIBUTION - MOBILE
+====================================== */
+document.addEventListener('DOMContentLoaded', function () {
+    const closeBtnMobile        = document.getElementById('distribution-button-close-mobile');
+    const notificationMobile    = document.getElementById('distribution-notification-mobile');
+    const notificationBtnMobile = document.getElementById('distribution-button-stay-mobile');
+    if (closeBtnMobile && notificationMobile && notificationBtnMobile) {
+        closeBtnMobile.addEventListener('click', () => {
+            notificationMobile.classList.add('show');
+        });
+        notificationBtnMobile.addEventListener('click', () => {
+            notificationMobile.classList.remove('show');
+        });
+    }
+});
+
+
 
 
 
