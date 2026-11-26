@@ -6360,6 +6360,11 @@ body {
 }
 
 
+
+
+
+
+
 /* ======================================
    PREVIEWS - PC
 ====================================== */
@@ -7273,16 +7278,16 @@ body {
 /* ======================================
    CONTROL
 ====================================== */
-.previews-container-1 { display: block; }
-.previews-container-1-mobile { display: none; }
-.previews-notification-1 { display: block; }
-.previews-notification-1-mobile { display: none; }
-.previews-notification-bar { display: block; }
-.previews-notification-bar-mobile { display: none; }
-.previews-notification-information { display: block; }
-.previews-notification-information-mobile { display: none; }
-.previews-notification-button-2 { display: block; }
-.previews-notification-button-2-mobile { display: none; }
+.previews-container-1 { display: none; }
+.previews-container-1-mobile { display: block; }
+.previews-notification-1 { display: none; }
+.previews-notification-1-mobile { display: block; }
+.previews-notification-bar { display: none; }
+.previews-notification-bar-mobile { display: block; }
+.previews-notification-information { display: none; }
+.previews-notification-information-mobile { display: block; }
+.previews-notification-button-2 { display: none; }
+.previews-notification-button-2-mobile { display: block; }
 }
 @media (max-width: 360px) {
     .previews-title-mobile { font-size: 1.5rem; }
@@ -7290,6 +7295,12 @@ body {
 @media (max-width: 320px) {
     .previews-title-mobile { font-size: 1.3rem; }
 }
+
+
+
+
+
+
 
 
 /* ======================================
