@@ -645,3 +645,39 @@ document.addEventListener('DOMContentLoaded', function () {
 
 
 
+/* ======================================
+   SCRIPT: NOTIFICACIÓN CROWDFUNDING - PC
+====================================== */
+document.addEventListener('DOMContentLoaded', function () {
+    const closeBtn        = document.getElementById('crowdfunding-button-close');
+    const notification    = document.getElementById('crowdfunding-notification');
+    const notificationBtn = document.getElementById('crowdfunding-button-stay');
+    if (closeBtn && notification && notificationBtn) {
+        // Al hacer clic en la X → mostrar notificación
+        closeBtn.addEventListener('click', () => {
+            notification.classList.add('show');
+        });
+        // Al hacer clic en STAY → ocultar notificación
+        notificationBtn.addEventListener('click', () => {
+            notification.classList.remove('show');
+        });
+    }
+});
+/* ======================================
+   SCRIPT: NOTIFICACIÓN CROWDFUNDING - MOBILE
+====================================== */
+document.addEventListener('DOMContentLoaded', function () {
+    const closeBtnMobile        = document.getElementById('crowdfunding-button-close-mobile');
+    const notificationMobile    = document.getElementById('crowdfunding-notification-mobile');
+    const notificationBtnMobile = document.getElementById('crowdfunding-button-stay-mobile');
+    if (closeBtnMobile && notificationMobile && notificationBtnMobile) {
+        // Al hacer clic en la X → mostrar notificación
+        closeBtnMobile.addEventListener('click', () => {
+            notificationMobile.classList.add('show');
+        });
+        // Al hacer clic en STAY → ocultar notificación
+        notificationBtnMobile.addEventListener('click', () => {
+            notificationMobile.classList.remove('show');
+        });
+    }
+});
