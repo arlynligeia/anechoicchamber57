@@ -306,10 +306,38 @@ document.addEventListener('DOMContentLoaded', function () {
 
 
 
-
-
-
-
+/* ======================================
+   SCRIPT: NOTIFICACIÓN COLLECTION - PC
+====================================== */
+document.addEventListener('DOMContentLoaded', function () {
+    const closeBtn        = document.getElementById('collection-button-close');
+    const notification    = document.getElementById('collection-notification');
+    const notificationBtn = document.getElementById('collection-button-stay');
+    if (closeBtn && notification && notificationBtn) {
+        closeBtn.addEventListener('click', () => {
+            notification.classList.add('show');
+        });
+        notificationBtn.addEventListener('click', () => {
+            notification.classList.remove('show');
+        });
+    }
+});
+/* ======================================
+   SCRIPT: NOTIFICACIÓN COLLECTION - MOBILE
+====================================== */
+document.addEventListener('DOMContentLoaded', function () {
+    const closeBtnMobile        = document.getElementById('collection-button-close-mobile');
+    const notificationMobile    = document.getElementById('collection-notification-mobile');
+    const notificationBtnMobile = document.getElementById('collection-button-stay-mobile');
+    if (closeBtnMobile && notificationMobile && notificationBtnMobile) {
+        closeBtnMobile.addEventListener('click', () => {
+            notificationMobile.classList.add('show');
+        });
+        notificationBtnMobile.addEventListener('click', () => {
+            notificationMobile.classList.remove('show');
+        });
+    }
+});
 
 
 
