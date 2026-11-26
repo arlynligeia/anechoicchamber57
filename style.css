@@ -2378,32 +2378,9 @@ body {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* ======================================
    SYNOPSIS - PC
 ====================================== */
-/* CONTENEDOR */
 .synopsis-container-1 {
     position: relative;
     width: 850px;
@@ -2451,7 +2428,7 @@ body {
     text-decoration: none;
     text-transform: uppercase;
     text-align: left;
-    line-height: 1.6;
+    line-height: 1;
     margin: 0px;
     padding: 0px;
 }
@@ -2490,7 +2467,7 @@ body {
     box-sizing: border-box;
     justify-content: center;
     align-items: center;
-    background: #0b0630;
+    background: #FF71CE !important;
     border-top:    2px solid #bae6fd;
     border-left:   2px solid #bae6fd;
     border-right:  2px solid #3b82f6;
@@ -2511,9 +2488,10 @@ body {
     display: block;
     font-family: 'Orbitron', sans-serif;
     font-size: 1.2rem;
-    color: white !important;
+    color: #07031a !important;
     text-decoration: none;
     text-transform: uppercase;
+    text-align: center;
     line-height: 1;
     margin: 0px;
     padding: 0px;
@@ -2560,7 +2538,7 @@ body {
     text-decoration: none;
     text-align: left;
     line-height: 1.5;
-    margin: 0px ;
+    margin: 0px;
     padding: 0px;
 }
 /* NOTIFICACIÓN - CONTENEDOR */
@@ -2579,7 +2557,7 @@ body {
     border-right:  2px solid #2563eb;
     border-bottom: 2px solid #2563eb;
     border-radius: 0px;
-    margin: 0px ;
+    margin: 0px;
     padding: 0px;
     opacity: 0;
     pointer-events: none;
@@ -2610,27 +2588,27 @@ body {
     box-sizing: border-box;
     justify-content: space-between;
     align-items: center;
-    background: #062a36 !important;
+    background: #FF71CE !important;
     border: 4px solid #7dd3fc;
     border-radius: 0px;
     margin: 0px;
-    padding: 4px 12px;
+    padding: 10px;
 }
 /* NOTIFICACIÓN - TÍTULO */
 .synopsis-notification-title {
     display: block;
     font-family: 'Orbitron', sans-serif;
     font-size: 1.2rem;
-    color: #99f6e4 !important;
+    color: #07031a !important;
     text-decoration: none;
     text-transform: uppercase;
     text-align: left;
-    line-height: 1.4;
+    line-height: 1;
     margin: 0px;
     padding: 0px;
 }
 .synopsis-notification-title a {
-    color: #99f6e4 !important;
+    color: #07031a !important;
     text-decoration: none;
 }
 /* NOTIFICACIÓN - CONTENEDOR */
@@ -2638,7 +2616,7 @@ body {
     width: 100%;
     box-sizing: border-box;
     background: transparent !important;
-    border: 4px solid #7dd3fc;
+    border: 4px solid #7dd3fc !important;
     border-radius: 0px;
     margin: 0px;
     padding: 0px;
@@ -2653,7 +2631,7 @@ body {
     border-bottom: 2px solid #e0f7ff;
     border-radius: 0px;
     margin: 0px;
-    padding: 20px;
+    padding: 15px;
 }
 /* NOTIFICACIÓN - INFORMACIÓN */
 .synopsis-notification-information {
@@ -2666,7 +2644,8 @@ body {
 .synopsis-notification-text {
     font-family: 'Share Tech Mono', monospace;
     font-size: 1rem;
-    color: #ecfeff !important;
+    color: white !important;
+    text-decoration: none;
     text-transform: uppercase;
     text-align: center;
     line-height: 1.5;
@@ -2703,7 +2682,7 @@ body {
     box-sizing: border-box;
     justify-content: center;
     align-items: center;
-    background: transparent !important;
+    background: #7dd3fc !important;
     border-top:    2px solid #bae6fd;
     border-left:   2px solid #bae6fd;
     border-right:  2px solid #3b82f6;
@@ -2724,9 +2703,13 @@ body {
     display: block;
     font-family: 'Orbitron', sans-serif;
     font-size: 1.2rem;
-    color: #bae6fd !important;
+    color: #07031a !important;
+    text-decoration: none;
     text-transform: uppercase;
+    text-align: center;
     line-height: 1;
+    margin: 0px;
+    padding: 0px;
     cursor: pointer;
     transition: filter 0.15s ease;
 }
@@ -2750,7 +2733,6 @@ body {
    SYNOPSIS - RESPONSIVE
 ====================================== */
 @media (max-width: 600px) {
-    /* CONTENEDOR */
     .synopsis-container-1-mobile {
         position: relative;
         width: 90%;
@@ -2799,7 +2781,7 @@ body {
         text-decoration: none;
         text-transform: uppercase;
         text-align: left;
-        line-height: 1.3;
+        line-height: 1;
         margin: 0px;
         padding: 0px;
     }
@@ -2840,7 +2822,7 @@ body {
         box-sizing: border-box;
         justify-content: center;
         align-items: center;
-        background: #0b0630;
+        background: #FF71CE !important;
         border-top:    2px solid #bae6fd;
         border-left:   2px solid #bae6fd;
         border-right:  2px solid #3b82f6;
@@ -2861,9 +2843,10 @@ body {
         display: block;
         font-family: 'Orbitron', sans-serif;
         font-size: 1rem;
-        color: white !important;
+        color: #07031a !important;
         text-decoration: none;
         text-transform: uppercase;
+        text-align: center;
         line-height: 1;
         margin: 0px;
         padding: 0px;
@@ -2901,18 +2884,19 @@ body {
         margin: 0px;
         padding: 0px;
     }
-    /* TEXTO */
+    /* TEXTO DESCRIPTIVO MOBILE */
     .synopsis-text-mobile {
         font-family: 'Share Tech Mono', monospace;
         font-size: 1.05rem;
         color: white !important;
         text-decoration: none;
-        line-height: 1.5;
         text-align: left;
+        line-height: 1.5;        
         margin: 0px;
         padding: 0px;
     }
-      /* NOTIFICACIÓN - CONTENEDOR */
+
+    /* NOTIFICACIÓN - CONTENEDOR */
     .synopsis-notification-1-mobile {
         position: fixed;
         top: 50%;
@@ -2958,26 +2942,27 @@ body {
         box-sizing: border-box;
         justify-content: space-between;
         align-items: center;
-        background: #062a36 !important;
+        background: #FF71CE !important;
         border: 4px solid #7dd3fc;
         border-radius: 0px;
         margin: 0px;
-        padding: 4px 12px;
+        padding: 10px;
     }
     /* NOTIFICACIÓN - TÍTULO */
     .synopsis-notification-title-mobile {
         display: block;
         font-family: 'Orbitron', sans-serif;
         font-size: 1rem;
-        color: #99f6e4 !important;
+        color: #07031a !important;
         text-decoration: none;
         text-transform: uppercase;
         text-align: left;
-        line-height: 1.4;
-        margin: 0;
+        line-height: 1;
+        margin: 0px;
+        padding: 0px;
     }
     .synopsis-notification-title-mobile a {
-        color: #99f6e4 !important;
+        color: #07031a !important;
         text-decoration: none;
     }
     /* NOTIFICACIÓN - CONTENEDOR */
@@ -3000,7 +2985,7 @@ body {
         border-bottom: 2px solid #e0f7ff;
         border-radius: 0px;
         margin: 0px;
-        padding: 20px;
+        padding: 15px;
     }
     /* NOTIFICACIÓN - INFORMACIÓN */
     .synopsis-notification-information-mobile {
@@ -3013,11 +2998,12 @@ body {
     .synopsis-notification-text-mobile {
         font-family: 'Share Tech Mono', monospace;
         font-size: 0.8rem;
-        color: #ecfeff !important;
+        color: white !important;
+        text-decoration: none;
         text-transform: uppercase;
         text-align: center;
         line-height: 1.5;
-        margin: 0 0 15px 0;
+        margin: 0 0 10px 0;
         padding: 0px;
     }
     /* NOTIFICACIÓN - BOTÓN PERMANECER */
@@ -3050,7 +3036,7 @@ body {
         box-sizing: border-box;
         justify-content: center;
         align-items: center;
-        background: transparent !important;
+        background: #7dd3fc !important;
         border-top:    2px solid #bae6fd;
         border-left:   2px solid #bae6fd;
         border-right:  2px solid #3b82f6;
@@ -3066,13 +3052,15 @@ body {
         border-right-color:  #bae6fd;
         border-bottom-color: #bae6fd;
     }
-    /* NOTIFICACIÓN - BOTÓN PERMANECER -TEXTO */
+    /* NOTIFICACIÓN - BOTÓN PERMANECER - TEXTO */
     .synopsis-notification-button-text-mobile {
         display: block;
         font-family: 'Orbitron', sans-serif;
         font-size: 1rem;
-        color: #bae6fd !important;
+        color: #07031a !important;
+        text-decoration: none;
         text-transform: uppercase;
+        text-align: center;
         line-height: 1;
         cursor: pointer;
         transition: filter 0.15s ease;
@@ -3083,16 +3071,16 @@ body {
 /* ======================================
    CONTROL
 ====================================== */
-.synopsis-container-1 { display: none; }
-.synopsis-container-1-mobile { display: block; }
-.synopsis-notification-1 { display: none; }
-.synopsis-notification-1-mobile { display: block; }
-.synopsis-notification-bar { display: none; }
-.synopsis-notification-bar-mobile { display: block; }
-.synopsis-notification-information { display: none; }
-.synopsis-notification-information-mobile { display: block; }
-.synopsis-notification-button-2 { display: none; }
-.synopsis-notification-button-2-mobile { display: block; }
+.synopsis-container-1 { display: block; }
+.synopsis-container-1-mobile { display: none; }
+.synopsis-notification-1 { display: block; }
+.synopsis-notification-1-mobile { display: none; }
+.synopsis-notification-bar { display: block; }
+.synopsis-notification-bar-mobile { display: none; }
+.synopsis-notification-information { display: block; }
+.synopsis-notification-information-mobile { display: none; }
+.synopsis-notification-button-2 { display: block; }
+.synopsis-notification-button-2-mobile { display: none; }
 }
 @media (max-width: 360px) {
     .synopsis-title-mobile { font-size: 1.5rem; }
@@ -3101,6 +3089,21 @@ body {
     .synopsis-title-mobile { font-size: 1.3rem; }
     .synopsis-text-mobile { font-size: 0.8rem; }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
