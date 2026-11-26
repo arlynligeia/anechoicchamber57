@@ -3265,7 +3265,7 @@ body {
     border-right:  2px solid #2563eb;
     border-bottom: 2px solid #2563eb;
     border-radius: 0px;
-    margin: 0px;
+    margin: 0px auto 0px auto;
     padding: 0px;
     transition: border-color 0.15s ease;
 }
@@ -3678,7 +3678,7 @@ body {
         border-right:  2px solid #2563eb;
         border-bottom: 2px solid #2563eb;
         border-radius: 0px;
-        margin: 0px;
+        margin: 0px auto 0px auto;
         padding: 0px;
         transition: border-color 0.15s ease;
     }
