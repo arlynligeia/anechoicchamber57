@@ -2467,7 +2467,7 @@ body {
     box-sizing: border-box;
     justify-content: center;
     align-items: center;
-    background: #FF71CE !important;
+    background: #7dd3fc !important;
     border-top:    2px solid #bae6fd;
     border-left:   2px solid #bae6fd;
     border-right:  2px solid #3b82f6;
@@ -2822,7 +2822,7 @@ body {
         box-sizing: border-box;
         justify-content: center;
         align-items: center;
-        background: #FF71CE !important;
+        background: #7dd3fc !important;
         border-top:    2px solid #bae6fd;
         border-left:   2px solid #bae6fd;
         border-right:  2px solid #3b82f6;
@@ -3934,6 +3934,27 @@ body {
     .distribution-title-mobile { font-size: 1.3rem; }
     .distribution-text-mobile { font-size: 0.8rem; }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
