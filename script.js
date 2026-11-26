@@ -264,6 +264,11 @@ document.addEventListener('DOMContentLoaded', function () {
 
 
 
+
+
+
+
+
 /* ======================================
    SCRIPT: NOTIFICACIÓN PROJECTDETAILS - PC
 ====================================== */
@@ -282,7 +287,6 @@ document.addEventListener('DOMContentLoaded', function () {
         });
     }
 });
-
 /* ======================================
    SCRIPT: NOTIFICACIÓN PROJECTDETAILS - MOBILE
 ====================================== */
@@ -301,6 +305,64 @@ document.addEventListener('DOMContentLoaded', function () {
         });
     }
 });
+
+
+
+/* ======================================
+   SCRIPT: NOTIFICACIÓN FILM - PC
+====================================== */
+document.addEventListener('DOMContentLoaded', function () {
+    const closeBtn        = document.getElementById('film-button-close');
+    const notification    = document.getElementById('film-button-notification');
+    const notificationBtn = document.getElementById('film-button-stay');
+    if (closeBtn && notification && notificationBtn) {
+        closeBtn.addEventListener('click', () => {
+            notification.classList.add('show');
+        });
+        notificationBtn.addEventListener('click', () => {
+            notification.classList.remove('show');
+        });
+    }
+});
+/* ======================================
+   SCRIPT: NOTIFICACIÓN FILM - MOBILE
+====================================== */
+document.addEventListener('DOMContentLoaded', function () {
+    const closeBtnMobile        = document.getElementById('film-button-close-mobile');
+    const notificationMobile    = document.getElementById('film-button-notification-mobile');
+    const notificationBtnMobile = document.getElementById('film-button-stay-mobile');
+    if (closeBtnMobile && notificationMobile && notificationBtnMobile) {
+        closeBtnMobile.addEventListener('click', () => {
+            notificationMobile.classList.add('show');
+        });
+        notificationBtnMobile.addEventListener('click', () => {
+            notificationMobile.classList.remove('show');
+        });
+    }
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
