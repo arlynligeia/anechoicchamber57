@@ -527,12 +527,12 @@ document.addEventListener('DOMContentLoaded', function () {
 
 
 /* ======================================
-   SCRIPT: PREVIEWS OF THE COLLECTION - PC
+   SCRIPT: PREVIEWS - PC
 ====================================== */
 document.addEventListener('DOMContentLoaded', function () {
-    const closeBtn        = document.getElementById('previewsofthecollection-button-close');
-    const notification    = document.getElementById('previewsofthecollection-notification');
-    const notificationBtn = document.getElementById('previewsofthecollection-button-stay');
+    const closeBtn        = document.getElementById('previews-button-close');
+    const notification    = document.getElementById('previews-notification');
+    const notificationBtn = document.getElementById('previews-button-stay');
     if (closeBtn && notification && notificationBtn) {
         // Al hacer clic en la X → mostrar notificación
         closeBtn.addEventListener('click', () => {
@@ -544,10 +544,10 @@ document.addEventListener('DOMContentLoaded', function () {
         });
     }
     // Carrusel PC
-    const images  = document.querySelectorAll('#collection-previewsofthecollection .previewsofthecollection-image');
-    const prevBtn = document.getElementById('previewsofthecollection-button-prev');
-    const nextBtn = document.getElementById('previewsofthecollection-button-next');
-    const counter = document.getElementById('previewsofthecollection-counter');
+    const images  = document.querySelectorAll('#collection-previews .previews-image');
+    const prevBtn = document.getElementById('previews-button-prev');
+    const nextBtn = document.getElementById('previews-button-next');
+    const counter = document.getElementById('previews-counter');
     let currentIndex = 0;
     function updateCarousel(index) {
         if (!images.length) return;
@@ -571,12 +571,12 @@ document.addEventListener('DOMContentLoaded', function () {
     }
 });
 /* ======================================
-   SCRIPT: PREVIEWS OF THE COLLECTION - MOBILE
+   SCRIPT: PREVIEWS - MOBILE
 ====================================== */
 document.addEventListener('DOMContentLoaded', function () {
-    const closeBtnMobile        = document.getElementById('previewsofthecollection-button-close-mobile');
-    const notificationMobile    = document.getElementById('previewsofthecollection-notification-mobile');
-    const notificationBtnMobile = document.getElementById('previewsofthecollection-button-stay-mobile');
+    const closeBtnMobile        = document.getElementById('previews-button-close-mobile');
+    const notificationMobile    = document.getElementById('previews-notification-mobile');
+    const notificationBtnMobile = document.getElementById('previews-button-stay-mobile');
     if (closeBtnMobile && notificationMobile && notificationBtnMobile) {
         // Al hacer clic en la X → mostrar notificación
         closeBtnMobile.addEventListener('click', () => {
@@ -588,10 +588,10 @@ document.addEventListener('DOMContentLoaded', function () {
         });
     }
     // Carrusel Mobile
-    const imagesMobile  = document.querySelectorAll('#collection-mobile-previewsofthecollection .previewsofthecollection-image-mobile');
-    const prevBtnMobile = document.getElementById('previewsofthecollection-button-prev-mobile');
-    const nextBtnMobile = document.getElementById('previewsofthecollection-button-next-mobile');
-    const counterMobile = document.getElementById('previewsofthecollection-counter-mobile');
+    const imagesMobile  = document.querySelectorAll('#collection-mobile-previews .previews-image-mobile');
+    const prevBtnMobile = document.getElementById('previews-button-prev-mobile');
+    const nextBtnMobile = document.getElementById('previews-button-next-mobile');
+    const counterMobile = document.getElementById('previews-counter-mobile');
     let currentIndexMobile = 0;
     function updateCarouselMobile(index) {
         if (!imagesMobile.length) return;
@@ -614,7 +614,6 @@ document.addEventListener('DOMContentLoaded', function () {
         updateCarouselMobile(0);
     }
 });
-
 
 
 
