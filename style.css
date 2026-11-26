@@ -869,7 +869,7 @@ body {
     font-family: 'Orbitron', sans-serif;
     font-size: 1.2rem;
     font-weight: bold;
-    color: white !important;
+    color: #07031a !important;
     text-decoration: none;
     text-transform: uppercase;
     text-align: center;
@@ -1303,7 +1303,7 @@ body {
         display: block;
         font-family: 'Orbitron', sans-serif;
         font-size: 1rem;
-        color: white !important;
+        color: #07031a !important;
         text-decoration: none;
         text-transform: uppercase;
         text-align: center;
