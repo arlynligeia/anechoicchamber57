@@ -7344,7 +7344,7 @@ body {
     text-decoration: none;
     text-transform: uppercase;
     text-align: left;
-    line-height: 1.6;
+    line-height: 1;
     margin: 0px;
     padding: 0px;
 }
@@ -7446,7 +7446,7 @@ body {
     padding: 0px;
 }
 /* TEXTO */
-.crowdfunding-text-1 {
+.crowdfunding-text {
     font-family: 'Share Tech Mono', monospace;
     font-size: 1.25rem;
     color: white !important;
@@ -7735,6 +7735,15 @@ body {
 .crowdfunding-notification-button-2 { display: block; }
 .crowdfunding-notification-button-2-mobile { display: none; }
 
+
+
+
+
+
+
+
+
+
 /* ======================================
    CROWDFUNDING - RESPONSIVE
 ====================================== */
@@ -7750,7 +7759,7 @@ body {
         border-right:  2px solid #2563eb;
         border-bottom: 2px solid #2563eb;
         border-radius: 0px;
-        margin: 40px auto 40px auto;
+        margin: 80px auto 40px auto;
         padding: 0px;
     }
     .crowdfunding-container-2-mobile {
@@ -7788,7 +7797,7 @@ body {
         text-decoration: none;
         text-transform: uppercase;
         text-align: left;
-        line-height: 1.3;
+        line-height: 1;
         margin: 0px;
         padding: 0px;
     }
@@ -7891,7 +7900,7 @@ body {
         padding: 0px;
     }
     /* TEXTO */
-    .crowdfunding-text-1-mobile {
+    .crowdfunding-text-mobile {
         font-family: 'Share Tech Mono', monospace;
         font-size: 1.05rem;
         color: white !important;
@@ -7901,7 +7910,6 @@ body {
         margin: 0 0 15px 0;
         padding: 0px;
     }
-
     /* ICONOS CROWDFUNDING - MOBILE */
     .crowdfunding-icons-mobile {
         display: flex;
