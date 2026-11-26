@@ -8230,7 +8230,7 @@ body {
     position: relative;
     width: 100%;
     box-sizing: border-box;
-    background: #0b0630 !important;
+    background: #07031a !important;
     margin-top: auto;
     padding: 30px;
 }
@@ -8242,7 +8242,24 @@ body {
     flex-direction: column;
     align-items: center;
 }
-.footer-brand-logo {
+.footer-brand-logo-film {
+    display: block;
+    text-align: center;
+    background: transparent !important;
+    -webkit-background-clip: unset;
+    background-clip: unset;
+    -webkit-text-fill-color: unset;
+    margin: 20px;
+    padding: 0px;
+}
+.footer-brand-logo-film img {
+    max-width: 100%;
+    box-sizing: border-box;
+    width: auto;
+    height: 200px;
+    display: inline-block;
+}
+.footer-brand-logo-al {
     display: block;
     text-align: center;
     background: transparent !important;
@@ -8252,11 +8269,11 @@ body {
     margin: 20px;
     padding: 0;
 }
-.footer-brand-logo img {
+.footer-brand-logo-al img {
     max-width: 100%;
     box-sizing: border-box;
     width: auto;
-    height: 100px;
+    height: 70px;
     display: inline-block;
 }
 .footer-brand-allrightreserved {
@@ -8462,6 +8479,25 @@ body {
 /* CONTROL */
 .footer { display: block; }
 .footer-mobile { display: none; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* ======================================
    RESPONSIVE: FOOTER
 ====================================== */
