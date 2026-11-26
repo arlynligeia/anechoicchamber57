@@ -6361,9 +6361,9 @@ body {
 
 
 /* ======================================
-   PREVIEWS OF THE COLLECTION - PC
+   PREVIEWS - PC
 ====================================== */
-.previewsofthecollection-container-1 {
+.previews-container-1 {
     position: relative;
     width: 850px;
     background: transparent !important;
@@ -6375,7 +6375,7 @@ body {
     margin: 50px auto 50px auto;
     padding: 0px;
 }
-.previewsofthecollection-container-2 {
+.previews-container-2 {
     position: relative;
     width: 100%;
     box-sizing: border-box;
@@ -6389,7 +6389,7 @@ body {
     padding: 0px;
 }
 /* BARRA */
-.previewsofthecollection-bar {
+.previews-bar {
     display: flex;
     width: 100%;
     box-sizing: border-box;
@@ -6402,7 +6402,7 @@ body {
     padding: 20px;
 }
 /* TÍTULO */
-.previewsofthecollection-title {
+.previews-title {
     display: block;
     font-family: 'Orbitron', sans-serif;
     font-size: 2.5rem;
@@ -6414,12 +6414,12 @@ body {
     margin: 0px;
     padding: 0px;
 }
-.previewsofthecollection-title a {
+.previews-title a {
     color: white !important;
     text-decoration: none;
 }
 /* BOTÓN - CERRAR */
-.previewsofthecollection-button-1 {
+.previews-button-1 {
     display: flex;
     width: 40px;
     height: 40px;
@@ -6436,13 +6436,13 @@ body {
     padding: 0px;
     transition: border-color 0.15s ease;
 }
-.previewsofthecollection-button-1:hover {
+.previews-button-1:hover {
     border-top-color:    #2563eb;
     border-left-color:   #2563eb;
     border-right-color:  #e0f7ff;
     border-bottom-color: #e0f7ff;
 }
-.previewsofthecollection-button-2 {
+.previews-button-2 {
     display: flex;
     width: 100%;
     height: 100%;
@@ -6459,14 +6459,14 @@ body {
     padding: 10px;
     transition: border-color 0.15s ease;
 }
-.previewsofthecollection-button-2:hover {
+.previews-button-2:hover {
     border-top-color:    #3b82f6;
     border-left-color:   #3b82f6;
     border-right-color:  #bae6fd;
     border-bottom-color: #bae6fd;
 }
 /* BOTÓN - CERRAR - TEXTO */
-.previewsofthecollection-button-text {
+.previews-button-text {
     display: block;
     font-family: 'Orbitron', sans-serif;
     font-size: 1.2rem;
@@ -6479,11 +6479,11 @@ body {
     cursor: pointer;
     transition: filter 0.15s ease;
 }
-.previewsofthecollection-button-text:hover {
+.previews-button-text:hover {
     filter: brightness(1.1);
 }
 /* CONTENEDOR */
-.previewsofthecollection-container-3 {
+.previews-container-3 {
     width: 100%;
     box-sizing: border-box;
     background: transparent !important;
@@ -6492,7 +6492,7 @@ body {
     margin: 0px;
     padding: 0px;
 }
-.previewsofthecollection-container-4 {
+.previews-container-4 {
     width: 100%;
     box-sizing: border-box;
     background: #0b0630 !important;
@@ -6505,14 +6505,14 @@ body {
     padding: 30px;
 }
 /* CARRUSEL */
-.previewsofthecollection-carousel {
+.previews-carousel {
     width: 100%;
     box-sizing: border-box;
     margin: 0px;
     padding: 0px;
 }
 /* IMÁGENES */
-.previewsofthecollection-images {
+.previews-images {
     position: relative;
     width: 350px;
     height: auto;
@@ -6527,7 +6527,7 @@ body {
     margin: 0 auto 20px auto;
     padding: 0px;
 }
-.previewsofthecollection-image {
+.previews-image {
     display: none;
     width: 100%;
     height: auto;
@@ -6535,11 +6535,11 @@ body {
     margin: 0px;
     padding: 0px;
 }
-.previewsofthecollection-image.active {
+.previews-image.active {
     display: block;
 }
 /* TEXTO DEBAJO DE LA IMAGEN */
-.previewsofthecollection-caption {
+.previews-caption {
     font-family: 'Share Tech Mono', monospace;
     font-size: 1.5rem;
     color: #7dd3fc !important;
@@ -6551,7 +6551,7 @@ body {
     padding: 0px;
 }
 /* CONTROLES CARRUSEL */
-.previewsofthecollection-controls {
+.previews-controls {
     display: flex;
     width: 100%;
     box-sizing: border-box;
@@ -6562,7 +6562,7 @@ body {
     padding: 0px;
 }
 /* CONTADOR */
-.previewsofthecollection-counter {
+.previews-counter {
     font-family: 'Share Tech Mono', monospace;
     font-size: 1.25rem;
     color: white !important;
@@ -6573,7 +6573,7 @@ body {
     padding: 0px;
 }
 /* BOTONES - PREVIOUS / NEXT */
-.previewsofthecollection-nav-button-1 {
+.previews-nav-button-1 {
     display: flex;
     width: fit-content;
     box-sizing: border-box;
@@ -6589,13 +6589,13 @@ body {
     padding: 0px;
     transition: border-color 0.15s ease;
 }
-.previewsofthecollection-nav-button-1:hover {
+.previews-nav-button-1:hover {
     border-top-color:    #2563eb;
     border-left-color:   #2563eb;
     border-right-color:  #e0f7ff;
     border-bottom-color: #e0f7ff;
 }
-.previewsofthecollection-nav-button-2 {
+.previews-nav-button-2 {
     display: flex;
     width: 100%;
     height: 100%;
@@ -6612,14 +6612,14 @@ body {
     padding: 10px 20px;
     transition: border-color 0.15s ease;
 }
-.previewsofthecollection-nav-button-2:hover {
+.previews-nav-button-2:hover {
     border-top-color:    #3b82f6;
     border-left-color:   #3b82f6;
     border-right-color:  #bae6fd;
     border-bottom-color: #bae6fd;
 }
 /* BOTONES - PREVIOUS / NEXT - TEXT */
-.previewsofthecollection-nav-button-text {
+.previews-nav-button-text {
     display: block;
     font-family: 'Orbitron', sans-serif;
     font-size: 1.2rem;
@@ -6632,11 +6632,11 @@ body {
     cursor: pointer;
     transition: filter 0.15s ease;
 }
-.previewsofthecollection-nav-button-text:hover {
+.previews-nav-button-text:hover {
     filter: brightness(1.1);
 }
 /* NOTIFICACIÓN - CONTENEDOR */
-.previewsofthecollection-notification-1 {
+.previews-notification-1 {
     position: fixed;
     top: 50%;
     left: 50%;
@@ -6657,12 +6657,12 @@ body {
     pointer-events: none;
     transition: opacity 0.3s ease, transform 0.3s ease;
 }
-.previewsofthecollection-notification-1.show {
+.previews-notification-1.show {
     opacity: 1;
     transform: translate(-50%, -50%) scale(1);
     pointer-events: auto;
 }
-.previewsofthecollection-notification-2 {
+.previews-notification-2 {
     position: relative;
     width: 100%;
     box-sizing: border-box;
@@ -6676,7 +6676,7 @@ body {
     padding: 0px;
 }
 /* NOTIFICACIÓN - BARRA */
-.previewsofthecollection-notification-bar {
+.previews-notification-bar {
     display: flex;
     width: 100%;
     box-sizing: border-box;
@@ -6689,7 +6689,7 @@ body {
     padding: 10px;
 }
 /* NOTIFICACIÓN - TÍTULO */
-.previewsofthecollection-notification-title {
+.previews-notification-title {
     display: block;
     font-family: 'Orbitron', sans-serif;
     font-size: 1.2rem;
@@ -6701,12 +6701,12 @@ body {
     margin: 0px;
     padding: 0px;
 }
-.previewsofthecollection-notification-title a {
+.previews-notification-title a {
     color: #07031a !important;
     text-decoration: none;
 }
 /* NOTIFICACIÓN - CONTENEDOR */
-.previewsofthecollection-notification-3 {
+.previews-notification-3 {
     width: 100%;
     box-sizing: border-box;
     background: transparent !important;
@@ -6715,7 +6715,7 @@ body {
     margin: 0px;
     padding: 0px;
 }
-.previewsofthecollection-notification-4 {
+.previews-notification-4 {
     width: 100%;
     box-sizing: border-box;
     background: #093b47 !important;
@@ -6728,14 +6728,14 @@ body {
     padding: 15px;
 }
 /* NOTIFICACIÓN - INFORMACIÓN */
-.previewsofthecollection-notification-information {
+.previews-notification-information {
     width: 100%;
     box-sizing: border-box;
     margin: 0px;
     padding: 0px;
 }
 /* NOTIFICACIÓN - TEXTO */
-.previewsofthecollection-notification-text {
+.previews-notification-text {
     font-family: 'Share Tech Mono', monospace;
     font-size: 1rem;
     color: white !important;
@@ -6746,7 +6746,7 @@ body {
     padding: 0px;
 }
 /* NOTIFICACIÓN - BOTÓN PERMANECER */
-.previewsofthecollection-notification-button-1 {
+.previews-notification-button-1 {
     display: flex;
     width: fit-content;
     box-sizing: border-box;
@@ -6762,13 +6762,13 @@ body {
     padding: 0px;
     transition: border-color 0.15s ease;
 }
-.previewsofthecollection-notification-button-1:hover {
+.previews-notification-button-1:hover {
     border-top-color:    #2563eb;
     border-left-color:   #2563eb;
     border-right-color:  #e0f7ff;
     border-bottom-color: #e0f7ff;
 }
-.previewsofthecollection-notification-button-2 {
+.previews-notification-button-2 {
     display: flex;
     width: 100%;
     height: 100%;
@@ -6785,14 +6785,14 @@ body {
     padding: 10px 20px;
     transition: border-color 0.15s ease;
 }
-.previewsofthecollection-notification-button-2:hover {
+.previews-notification-button-2:hover {
     border-top-color:    #3b82f6;
     border-left-color:   #3b82f6;
     border-right-color:  #bae6fd;
     border-bottom-color: #bae6fd;
 }
 /* NOTIFICACIÓN - BOTÓN PERMANECER - TEXTO */
-.previewsofthecollection-notification-button-text {
+.previews-notification-button-text {
     display: block;
     font-family: 'Orbitron', sans-serif;
     font-size: 1.2rem;
@@ -6804,28 +6804,28 @@ body {
     cursor: pointer;
     transition: filter 0.15s ease;
 }
-.previewsofthecollection-notification-button-text:hover {
+.previews-notification-button-text:hover {
     filter: brightness(1.1);
 }
 /* ======================================
    CONTROL
 ====================================== */
-.previewsofthecollection-container-1 { display: block; }
-.previewsofthecollection-container-1-mobile { display: none; }
-.previewsofthecollection-notification-1 { display: block; }
-.previewsofthecollection-notification-1-mobile { display: none; }
-.previewsofthecollection-notification-bar { display: block; }
-.previewsofthecollection-notification-bar-mobile { display: none; }
-.previewsofthecollection-notification-information { display: block; }
-.previewsofthecollection-notification-information-mobile { display: none; }
-.previewsofthecollection-notification-button-2 { display: block; }
-.previewsofthecollection-notification-button-2-mobile { display: none; }
+.previews-container-1 { display: block; }
+.previews-container-1-mobile { display: none; }
+.previews-notification-1 { display: block; }
+.previews-notification-1-mobile { display: none; }
+.previews-notification-bar { display: block; }
+.previews-notification-bar-mobile { display: none; }
+.previews-notification-information { display: block; }
+.previews-notification-information-mobile { display: none; }
+.previews-notification-button-2 { display: block; }
+.previews-notification-button-2-mobile { display: none; }
 
 /* ======================================
-   PREVIEWS OF THE COLLECTION - RESPONSIVE
+   PREVIEWS - RESPONSIVE
 ====================================== */
 @media (max-width: 600px) {
-    .previewsofthecollection-container-1-mobile {
+    .previews-container-1-mobile {
         position: relative;
         width: 90%;
         box-sizing: border-box;
@@ -6838,7 +6838,7 @@ body {
         margin: 40px auto 40px auto;
         padding: 0px;
     }
-    .previewsofthecollection-container-2-mobile {
+    .previews-container-2-mobile {
         position: relative;
         width: 100%;
         box-sizing: border-box;
@@ -6852,7 +6852,7 @@ body {
         padding: 0px;
     }
     /* BARRA */
-    .previewsofthecollection-bar-mobile {
+    .previews-bar-mobile {
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -6865,7 +6865,7 @@ body {
         padding: 10px;
     }
     /* TÍTULO */
-    .previewsofthecollection-title-mobile {
+    .previews-title-mobile {
         display: block;
         font-family: 'Orbitron', sans-serif;
         font-size: 2rem;
@@ -6877,12 +6877,12 @@ body {
         margin: 0px;
         padding: 0px;
     }
-    .previewsofthecollection-title-mobile a {
+    .previews-title-mobile a {
         color: white !important;
         text-decoration: none;
     }
     /* BOTÓN CERRAR */
-    .previewsofthecollection-button-1-mobile {
+    .previews-button-1-mobile {
         position: relative;
         display: flex;
         width: 35px;
@@ -6900,13 +6900,13 @@ body {
         padding: 0px;
         transition: border-color 0.15s ease;
     }
-    .previewsofthecollection-button-1-mobile:hover {
+    .previews-button-1-mobile:hover {
         border-top-color:    #2563eb;
         border-left-color:   #2563eb;
         border-right-color:  #e0f7ff;
         border-bottom-color: #e0f7ff;
     }
-    .previewsofthecollection-button-2-mobile {
+    .previews-button-2-mobile {
         position: relative;
         display: flex;
         width: 100%;
@@ -6924,14 +6924,14 @@ body {
         padding: 10px;
         transition: border-color 0.15s ease;
     }
-    .previewsofthecollection-button-2-mobile:hover {
+    .previews-button-2-mobile:hover {
         border-top-color:    #3b82f6;
         border-left-color:   #3b82f6;
         border-right-color:  #bae6fd;
         border-bottom-color: #bae6fd;
     }
     /* BOTÓN CERRAR - TEXTO */
-    .previewsofthecollection-button-text-mobile {
+    .previews-button-text-mobile {
         display: block;
         font-family: 'Orbitron', sans-serif;
         font-size: 1rem;
@@ -6943,11 +6943,11 @@ body {
         padding: 0px;
         transition: filter 0.15s ease;
     }
-    .previewsofthecollection-button-text-mobile:hover {
+    .previews-button-text-mobile:hover {
         filter: brightness(1.1);
     }
     /* CONTENEDOR */
-    .previewsofthecollection-container-3-mobile {
+    .previews-container-3-mobile {
         width: 100%;
         box-sizing: border-box;
         background: transparent !important;
@@ -6956,7 +6956,7 @@ body {
         margin: 0px;
         padding: 0px;
     }
-    .previewsofthecollection-container-4-mobile {
+    .previews-container-4-mobile {
         width: 100%;
         box-sizing: border-box;
         background: #0b0630 !important;
@@ -6969,14 +6969,14 @@ body {
         padding: 20px;
     }
     /* CARRUSEL MOBILE */
-    .previewsofthecollection-carousel-mobile {
+    .previews-carousel-mobile {
         width: 100%;
         box-sizing: border-box;
         margin: 0px;
         padding: 0px;
     }
     /* CONTENEDOR DE IMÁGENES MOBILE */
-    .previewsofthecollection-image-container-mobile {
+    .previews-image-container-mobile {
         position: relative;
         width: 100%;
         overflow: hidden;
@@ -6989,7 +6989,7 @@ body {
         margin: 0 0 15px 0;
         padding: 0px;
     }
-    .previewsofthecollection-image-mobile {
+    .previews-image-mobile {
         display: none;
         width: 100%;
         height: auto;
@@ -6997,11 +6997,11 @@ body {
         margin: 0px;
         padding: 0px;
     }
-    .previewsofthecollection-image-mobile.active {
+    .previews-image-mobile.active {
         display: block;
     }   
     /* TEXTO DEBAJO DE LA IMAGEN MOBILE */
-    .previewsofthecollection-caption-mobile {
+    .previews-caption-mobile {
         font-family: 'Share Tech Mono', monospace;
         font-size: 1.3rem;
         color: #7dd3fc !important;
@@ -7013,7 +7013,7 @@ body {
         padding: 0px;
     }
     /* CONTROLES CARRUSEL MOBILE */
-    .previewsofthecollection-controls-mobile {
+    .previews-controls-mobile {
         display: flex;
         justify-content: center;
         align-items: center;
@@ -7024,7 +7024,7 @@ body {
         padding: 0px;
     }
     /* CONTADOR MOBILE */
-    .previewsofthecollection-counter-mobile {
+    .previews-counter-mobile {
         font-family: 'Share Tech Mono', monospace;
         font-size: 1.05rem;
         color: white !important;
@@ -7036,7 +7036,7 @@ body {
         padding: 0px;
     }
     /* BOTONES PREVIOUS / NEXT MOBILE */
-    .previewsofthecollection-nav-button-1-mobile {
+    .previews-nav-button-1-mobile {
         display: flex;
         width: fit-content;
         box-sizing: border-box;
@@ -7052,13 +7052,13 @@ body {
         padding: 0px;
         transition: border-color 0.15s ease;
     }
-    .previewsofthecollection-nav-button-1-mobile:hover {
+    .previews-nav-button-1-mobile:hover {
         border-top-color:    #2563eb;
         border-left-color:   #2563eb;
         border-right-color:  #e0f7ff;
         border-bottom-color: #e0f7ff;
     }
-    .previewsofthecollection-nav-button-2-mobile {
+    .previews-nav-button-2-mobile {
         display: flex;
         width: 100%;
         height: 100%;
@@ -7075,13 +7075,13 @@ body {
         padding: 8px 12px;
         transition: border-color 0.15s ease;
     }
-    .previewsofthecollection-nav-button-2-mobile:hover {
+    .previews-nav-button-2-mobile:hover {
         border-top-color:    #3b82f6;
         border-left-color:   #3b82f6;
         border-right-color:  #bae6fd;
         border-bottom-color: #bae6fd;
     }
-    .previewsofthecollection-nav-button-text-mobile {
+    .previews-nav-button-text-mobile {
         display: block;
         font-family: 'Orbitron', sans-serif;
         font-size: 1rem;
@@ -7094,12 +7094,12 @@ body {
         cursor: pointer;
         transition: filter 0.15s ease;
     }
-    .previewsofthecollection-nav-button-text-mobile:hover {
+    .previews-nav-button-text-mobile:hover {
         filter: brightness(1.1);
     }  
 
     /* NOTIFICACIÓN - CONTENEDOR */
-    .previewsofthecollection-notification-1-mobile {
+    .previews-notification-1-mobile {
         position: fixed;
         top: 50%;
         left: 50%;
@@ -7120,12 +7120,12 @@ body {
         pointer-events: none;
         transition: opacity 0.3s ease, transform 0.3s ease;
     }
-    .previewsofthecollection-notification-1-mobile.show {
+    .previews-notification-1-mobile.show {
         opacity: 1;
         transform: translate(-50%, -50%) scale(1);
         pointer-events: auto;
     }
-    .previewsofthecollection-notification-2-mobile {
+    .previews-notification-2-mobile {
         position: relative;
         width: 100%;
         box-sizing: border-box;
@@ -7139,7 +7139,7 @@ body {
         padding: 0px;
     }
     /* NOTIFICACIÓN - BARRA */
-    .previewsofthecollection-notification-bar-mobile {
+    .previews-notification-bar-mobile {
         display: flex;
         width: 100%;
         box-sizing: border-box;
@@ -7152,7 +7152,7 @@ body {
         padding: 10px;
     }
     /* NOTIFICACIÓN - TÍTULO */
-    .previewsofthecollection-notification-title-mobile {
+    .previews-notification-title-mobile {
         display: block;
         font-family: 'Orbitron', sans-serif;
         font-size: 1rem;
@@ -7164,12 +7164,12 @@ body {
         margin: 0px;
         padding: 0px;
     }
-    .previewsofthecollection-notification-title-mobile a {
+    .previews-notification-title-mobile a {
         color: #07031a !important;
         text-decoration: none;
     }
     /* NOTIFICACIÓN - CONTENEDOR */
-    .previewsofthecollection-notification-3-mobile {
+    .previews-notification-3-mobile {
         width: 100%;
         box-sizing: border-box;
         background: transparent !important;
@@ -7178,7 +7178,7 @@ body {
         margin: 0px;
         padding: 0px;
     }
-    .previewsofthecollection-notification-4-mobile {
+    .previews-notification-4-mobile {
         width: 100%;
         box-sizing: border-box;
         background: #093b47 !important;
@@ -7191,14 +7191,14 @@ body {
         padding: 15px;
     }
     /* NOTIFICACIÓN - INFORMACIÓN */
-    .previewsofthecollection-notification-information-mobile {
+    .previews-notification-information-mobile {
         width: 100%;
         box-sizing: border-box;
         margin: 0px;
         padding: 0px;
     } 
     /* NOTIFICACIÓN - TEXTO */
-    .previewsofthecollection-notification-text-mobile {
+    .previews-notification-text-mobile {
         font-family: 'Share Tech Mono', monospace;
         font-size: 0.8rem;
         color: white !important;
@@ -7209,7 +7209,7 @@ body {
         padding: 0px;
     }
     /* NOTIFICACIÓN - BOTÓN PERMANECER */
-    .previewsofthecollection-notification-button-1-mobile {
+    .previews-notification-button-1-mobile {
         display: flex;
         width: fit-content;
         box-sizing: border-box;
@@ -7225,13 +7225,13 @@ body {
         padding: 0px;
         transition: border-color 0.15s ease;
     }
-    .previewsofthecollection-notification-button-1-mobile:hover {
+    .previews-notification-button-1-mobile:hover {
         border-top-color:    #2563eb;
         border-left-color:   #2563eb;
         border-right-color:  #e0f7ff;
         border-bottom-color: #e0f7ff;
     }
-    .previewsofthecollection-notification-button-2-mobile {
+    .previews-notification-button-2-mobile {
         display: flex;
         width: 100%;
         height: 100%;
@@ -7248,14 +7248,14 @@ body {
         padding: 10px 20px;
         transition: border-color 0.15s ease;
     }
-    .previewsofthecollection-notification-button-2-mobile:hover {
+    .previews-notification-button-2-mobile:hover {
         border-top-color:    #3b82f6;
         border-left-color:   #3b82f6;
         border-right-color:  #bae6fd;
         border-bottom-color: #bae6fd;
     }
     /* NOTIFICACIÓN - BOTÓN PERMANECER -TEXTO */
-    .previewsofthecollection-notification-button-text-mobile {
+    .previews-notification-button-text-mobile {
         display: block;
         font-family: 'Orbitron', sans-serif;
         font-size: 1rem;
@@ -7268,30 +7268,29 @@ body {
         cursor: pointer;
         transition: filter 0.15s ease;
     }
-    .previewsofthecollection-notification-button-text-mobile:hover {
+    .previews-notification-button-text-mobile:hover {
         filter: brightness(1.1);
     }
 /* ======================================
    CONTROL
 ====================================== */
-.previewsofthecollection-container-1 { display: none; }
-.previewsofthecollection-container-1-mobile { display: block; }
-.previewsofthecollection-notification-1 { display: none; }
-.previewsofthecollection-notification-1-mobile { display: block; }
-.previewsofthecollection-notification-bar { display: none; }
-.previewsofthecollection-notification-bar-mobile { display: block; }
-.previewsofthecollection-notification-information { display: none; }
-.previewsofthecollection-notification-information-mobile { display: block; }
-.previewsofthecollection-notification-button-2 { display: none; }
-.previewsofthecollection-notification-button-2-mobile { display: block; }
+.previews-container-1 { display: block; }
+.previews-container-1-mobile { display: none; }
+.previews-notification-1 { display: block; }
+.previews-notification-1-mobile { display: none; }
+.previews-notification-bar { display: block; }
+.previews-notification-bar-mobile { display: none; }
+.previews-notification-information { display: block; }
+.previews-notification-information-mobile { display: none; }
+.previews-notification-button-2 { display: block; }
+.previews-notification-button-2-mobile { display: none; }
 }
 @media (max-width: 360px) {
-    .previewsofthecollection-title-mobile { font-size: 1.5rem; }
+    .previews-title-mobile { font-size: 1.5rem; }
 }
 @media (max-width: 320px) {
-    .previewsofthecollection-title-mobile { font-size: 1.3rem; }
+    .previews-title-mobile { font-size: 1.3rem; }
 }
-
 
 
 
