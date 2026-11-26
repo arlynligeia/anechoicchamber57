@@ -7445,7 +7445,7 @@ body {
     margin: 0px;
     padding: 0px;
 }
-/* TEXTO */
+/* TEXTO DESCRIPTIVO */
 .crowdfunding-text {
     font-family: 'Share Tech Mono', monospace;
     font-size: 1.25rem;
@@ -7537,7 +7537,7 @@ body {
     filter: brightness(1.2);
 }
 /* TEXTO DE ICONOS */
-.crowdfunding-text {
+.crowdfunding-text-2 {
     display: block;
     font-family: 'Orbitron', sans-serif;
     font-size: 0.8rem;
@@ -7735,15 +7735,6 @@ body {
 .crowdfunding-notification-button-2 { display: block; }
 .crowdfunding-notification-button-2-mobile { display: none; }
 
-
-
-
-
-
-
-
-
-
 /* ======================================
    CROWDFUNDING - RESPONSIVE
 ====================================== */
@@ -7899,7 +7890,7 @@ body {
         margin: 0px;
         padding: 0px;
     }
-    /* TEXTO */
+    /* TEXTO DESCRIPTIVO MOBILE */
     .crowdfunding-text-mobile {
         font-family: 'Share Tech Mono', monospace;
         font-size: 1.05rem;
@@ -7990,7 +7981,7 @@ body {
         filter: brightness(1.2);
     }
     /* TEXTO DE ICONOS MOBILE */
-    .crowdfunding-text-mobile {
+    .crowdfunding-text-2-mobile {
         display: block;
         font-family: 'Orbitron', sans-serif;
         font-size: 0.65rem;
@@ -8190,17 +8181,16 @@ body {
     .crowdfunding-title-mobile { font-size: 1.5rem; }
     .crowdfunding-icon-mobile { width: 64px; height: 64px; }
     .crowdfunding-folder-mobile { width: 42px; height: 32px; }
-    .crowdfunding-text-mobile { font-size: 0.6rem; }
+    .crowdfunding-text-2-mobile { font-size: 0.6rem; }
 }
 @media (max-width: 320px) {
     .crowdfunding-title-mobile { font-size: 1.3rem; }
-    .crowdfunding-text-1-mobile { font-size: 0.8rem; }
+    .crowdfunding-text-mobile { font-size: 0.8rem; }
     .crowdfunding-icons-mobile { gap: 4px; }
     .crowdfunding-icon-mobile { width: 58px; height: 58px; }
     .crowdfunding-folder-mobile { width: 38px; height: 29px; }
-    .crowdfunding-text-mobile { font-size: 0.55rem; }
+    .crowdfunding-text-2-mobile { font-size: 0.55rem; }
 }
-
 
 
 
